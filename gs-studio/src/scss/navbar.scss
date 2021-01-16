@@ -1,0 +1,25 @@
+nav {
+  img {
+    display: block;
+    margin: 20px auto;
+    height: 275px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: $blue;
+    padding: 15px;
+    a {
+      text-decoration: none;
+      color: white;
+      :hover {
+        color: $teal;
+        text-decoration: underline;
+      }
+    }
+    h4 {
+      margin: 0px 20px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+$teal: #c4e1c2;
+$blue: #1172b9;
+$black: #020000;
+
+@import "reset.scss";
+@import "navbar.scss";
+@import "footer.scss";
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
