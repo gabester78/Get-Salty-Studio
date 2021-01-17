@@ -1,0 +1,42 @@
+main {
+  .about_container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    #top {
+      margin-top: 60px;
+    }
+    .profile_container {
+      display: flex;
+      align-items: center;
+      margin: 30px 0px;
+
+      .border {
+        width: 100%;
+      }
+
+      .headshot {
+        width: 32%;
+        margin-right: 20px;
+        border: 5px solid $teal;
+        border-radius: 100%;
+      }
+
+      #heather {
+        border: 5px solid $blue;
+      }
+
+      img {
+        margin: 20px 0px;
+      }
+      h1 {
+        font-size: 1.6rem;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

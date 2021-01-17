@@ -172,6 +172,12 @@ main .main_container {
     margin: 5px 0px; }
   main .main_container .testimony {
     margin: 20px 0px; }
+  main .main_container .blue {
+    color: #1172b9;
+    font-weight: 600; }
+
+main .about_container {
+  width: 800px; }
 
 footer {
   background-color: #1172b9;

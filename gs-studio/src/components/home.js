@@ -17,7 +17,7 @@ const Home = () => {
                 respiratory function by clearing moisture and breaking up mucus. </p>
               <h2>What are the benefits? What does it treat?</h2>
               <img className="borders" src={teal_border} alt="wavy teal line graphic"/>
-              <div className="cardcontainer">
+              <section className="cardcontainer">
                 <div className="cards">
                   <h4>Skin</h4>
                   <img className="blue_borders" src={blue_border_short} alt="wavy teal line graphic"/>
@@ -49,10 +49,10 @@ const Home = () => {
                     <li>• Headaches</li>
                   </ul>
                 </div>
-              </div>
+              </section>
               <h2>Enjoy some of our other spa services!</h2>
               <img className="borders" src={teal_border} alt="wavy teal line graphic"/>
-              <div className="cardcontainer">
+              <section className="cardcontainer">
                 <div className="cards">
                   <ul>
                     <li>• Waxing</li>
@@ -73,12 +73,13 @@ const Home = () => {
                   <ul>
                     <li>• Massage Therapy</li>
                     <li>• LED Therapy</li>
-                    <li>• Nail Services</li>
+                    <li>• Manicure</li>
+                    <li>• Pedicure</li>
                   </ul>
                 </div>
-              </div>
+              </section>
               <p className="testimony">I am always searching for the highest quality ingredients + products to continue fulfilling 
-                all of your Holistic esthetic needs. My goal is to help you <span className="blue"> relax, unwind, + revitalize</span> your 
+                all of your Holistic esthetic needs. My goal is to help you <span className="blue"> relax, unwind, + revitalize </span> your 
                 skin allowing you to look as young as you feel!</p>
               <h4>Shannon - Owner &amp; Esthetician</h4>
             </div>
