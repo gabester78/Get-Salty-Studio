@@ -1,11 +1,36 @@
 $teal: #c4e1c2;
 $blue: #1172b9;
 $black: #020000;
+@mixin blue_text {
+  color: $blue;
+  font-weight: 600;
+}
 
 @import "reset.scss";
 @import "navbar.scss";
+@import "home.scss";
 @import "footer.scss";
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  p {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+  li {
+    font-size: 1.2rem;
+  }
 }

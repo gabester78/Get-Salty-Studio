@@ -8,16 +8,16 @@ const NavBar = () => {
         <img src={GSSLogo} alt="Get Salty Studio Logo"/>
         <div className="navbar">
             <NavLink to="/">
-                <h4>Home</h4>
+                <p>Home</p>
             </NavLink>
             <NavLink to="/about">
-                <h4>About</h4>
+                <p>About</p>
             </NavLink>
             <NavLink to="/services">
-                <h4>Services</h4>
+                <p>Services</p>
             </NavLink>
             <NavLink to="/contact">
-                <h4>Contact</h4>
+                <p>Contact</p>
             </NavLink>
         </div>
     </nav>
