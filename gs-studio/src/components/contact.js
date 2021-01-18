@@ -8,7 +8,7 @@ const Contact = () => {
   return (
         <main>
           <section>
-            <h1>Call or email us to set your appointment today! &#40;No walk-ins&#41;</h1>
+            <h1 className="heading">Call or email us to set your appointment today! &#40;No walk-ins&#41;</h1>
             <img className="border" src={teal_border} alt="wavy teal line graphic" />
             <article className="contact_container">
               <div className="contact_info">

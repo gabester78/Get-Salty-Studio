@@ -14,10 +14,14 @@ const About = () => {
               <div className="profile">
                 <h1>Shannon - Owner &amp; Esthetician</h1>
                 <img className="border" src={teal_border} alt="wavy teal line graphic" />
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
-                  euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad 
-                  minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut 
-                  aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
+                <p>Shannon Nolan, Licensed Esthetician since 1995. Specializing in Botanical Skincare, 
+                  Rose Quartz Facials, and teen acne. She is also a Certified Aromatherapist and Certified Master 
+                  Herbalist all of which is incorporated into her Holistic Skincare Practice. Shannon opened Get 
+                  Salty Skincare Studio to not only create a relaxing one of a kind space for her clients, but to 
+                  be able to provide an affordable alternative/complimentary therapy within her studio for guests 
+                  with a variety of breathing and skin conditions. The idea of the Salt Room stemmed from wanting 
+                  to help her Father who has COPD and her son who has terrible allergies. She wanted to have a place 
+                  to share the benefits that the salt room provides for them with her family of clients as well. 
                 </p>
               </div>
             </section>
