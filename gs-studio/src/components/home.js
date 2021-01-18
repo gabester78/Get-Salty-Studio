@@ -7,7 +7,7 @@ const Home = () => {
   return (
         <main> 
           <div className="main_container">
-            <img src={Hero_Image} alt="Woman relaxing during halotherapy"/>
+            <img className="hero" src={Hero_Image} alt="Woman relaxing during halotherapy"/>
             <div>
               <h1>How does halotherapy (dry salt therapy) work?</h1>
               <img className="borders" src={teal_border} alt="wavy teal line graphic"/>
