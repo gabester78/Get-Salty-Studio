@@ -2,6 +2,7 @@ import React from "react";
 import phone from "../images/phone.svg"
 import envelope from "../images/envelope-regular.svg"
 import map from "../images/map.png"
+import location from "../images/map-marker-alt-solid.svg"
 
 const Contact = () => {
   return (
@@ -17,6 +18,10 @@ const Contact = () => {
                 <div className="contact">
                   <a href="mailto:contact@getsaltystudio.com" target="_blank" rel="noreferrer"><img id="icons" src={envelope} alt="Icon of an envelope" /></a>
                   <a href="mailto:contact@getsaltystudio.com" target="_blank" rel="noreferrer">contact@getsaltystudio.com</a>
+                </div>
+                <div className="contact">
+                  <img id="icons" src={location} alt="location icon" />
+                  <h4>2020 Johnsburg Rd, Johnsburg, IL</h4>
                 </div>
               </div>
               <div className="map_container">
