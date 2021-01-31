@@ -48,7 +48,7 @@ const Services = () => {
                 <article className="cards">
                   <h5><span className="blue_text">Salty</span> Couples Massage</h5>
                   <img className="blue_borders" src={blue_border_short} alt="wavy teal line graphic"/>
-                    <p><span className="bold_text">1</span> Hour massage in salt room <span className="blue_text">$80 pp</span> <span className="bold_text">&#40;First tuesday of the month&#41;</span></p>
+                    <p><span className="bold_text">1</span> Hour massage in salt room <span className="blue_text">$80 pp</span> <span className="bold_text">&#40;First Tuesday of the month&#41;</span></p>
                 </article>
                 <article className="cards">
                   <h5>The VIP Package</h5>
@@ -210,7 +210,7 @@ const Services = () => {
                 <h5>Cold Stone Therapy</h5>
                 <img className="article_border" src={blue_border} alt="wavy teal line graphic"/>
                 <p><span className="bold_text">30</span> min session <span className="blue_text">$25</span><br></br> 
-                  Purchase <span className="bold_text">4</span> Cold Stone Packages for <span className="blue_text">$20</span></p>
+                  Purchase <span className="bold_text">4</span> Cold Stone Packages for <span className="blue_text">$20</span> each.</p>
                 <p>This technique is a relief for <span className="blue_text">allergy sufferers, people with sinus pain + migraine headaches.</span></p>
               </article>
               <article>
