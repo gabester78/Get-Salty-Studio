@@ -5,6 +5,11 @@ main {
     flex-direction: column;
     margin: 0 auto;
 
+    .heading {
+      margin: 60px auto 0px auto;
+      font-size: 1.9rem;
+    }
+
     #top {
       margin-top: 60px;
     }

@@ -1,0 +1,66 @@
+.services_navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: $teal;
+  padding: 15px;
+  a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 30px;
+
+    :hover {
+      color: $blue;
+      text-decoration: underline;
+    }
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.services_container {
+  display: flex;
+  flex-direction: column;
+
+  .services_heading {
+    margin: 60px auto 60px auto;
+  }
+
+  .borders {
+    margin: 20px 0px 30px 0px;
+  }
+
+  .card_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .cards {
+      width: 32%;
+
+      .blue_borders {
+        margin: 20px 0px 10px 0px;
+        width: 100%;
+      }
+
+      .card_details {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  article {
+    margin-bottom: 30px;
+  }
+  .article_border {
+    margin: 20px 0px 15px 0px;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+  .tags {
+    font-size: 1rem;
+  }
+}

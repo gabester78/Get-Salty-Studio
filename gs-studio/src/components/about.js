@@ -9,7 +9,8 @@ const About = () => {
   return (
         <main>
           <div className="about_container">
-            <section id="top" className="profile_container">
+            <h1 className="heading">About Us</h1>
+            <section id="top" className="profile_container"> 
               <img className="headshot" src={Shannon} alt="headshot of Shannon"/>
               <div className="profile">
                 <h1>Shannon - Owner &amp; Esthetician</h1>

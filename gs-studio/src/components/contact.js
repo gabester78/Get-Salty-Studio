@@ -1,5 +1,4 @@
 import React from "react";
-import teal_border from "../images/teal_border.svg"
 import phone from "../images/phone.svg"
 import envelope from "../images/envelope-regular.svg"
 import map from "../images/map.png"
@@ -8,8 +7,7 @@ const Contact = () => {
   return (
         <main>
           <section>
-            <h1 className="heading">Call or email us to set your appointment today! &#40;No walk-ins&#41;</h1>
-            <img className="border" src={teal_border} alt="wavy teal line graphic" />
+            <h1 className="contact_heading">Please call or email us to set your appointment today! We do not accept walk-ins.</h1>
             <article className="contact_container">
               <div className="contact_info">
                 <div className="contact">
