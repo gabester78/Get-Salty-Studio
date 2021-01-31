@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import teal_border from "../images/teal_border.svg"
 import blue_border from "../images/blue_border.svg"
 import blue_border_short from "../images/blue_border_short.svg"
