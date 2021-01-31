@@ -115,7 +115,7 @@ const Services = () => {
                 <h5>Glow + Go Express</h5>
                 <img className="article_border" src={blue_border} alt="wavy teal line graphic"/>
                 <p><span className="bold_text">45</span> mins <span className="blue_text">$50</span></p>
-                <p>Rose Quartz Facial without hand paraffin, arm + hand <a id="fitness_anchor">massage.</a></p>
+                <p>Rose Quartz Facial without hand paraffin, arm + hand <a href="fitness_anchor" id="fitness_anchor">massage.</a></p>
               </article>
               <article>
                 <div className="nav_header">
@@ -154,7 +154,7 @@ const Services = () => {
                 <p>It also improves muscle tone in the face and neck, lifts jowls + eyebrows. It reduces + eliminates fine 
                   lines and wrinkles, improves facial circulation, aids in lymphatic drainage, + enhances product penetration 
                   to treat multiple skin problems.</p>
-                <p className="tags">this procedure cannot be performed on persons with epilepsy, a pacemaker, active cancer, + women that may be <a id="waxing_anchor">pregnant.</a></p>
+                <p className="tags">this procedure cannot be performed on persons with epilepsy, a pacemaker, active cancer, + women that may be <a href="waxing_anchor" id="waxing_anchor">pregnant.</a></p>
               </article>
               <article className="wax_article">
                 <div className="nav_header">
@@ -236,7 +236,7 @@ const Services = () => {
                 <p>Reflexology can help reduce pain, encourage relaxation, improve blood low, aid post-surgery 
                   recovery, reduce toxins in the body, + help with the overall reduction of daily stress.</p>
                 <p className="tags"><span className="blue_text">Please note:</span> A reflexologist is not a medical doctor. Reflexology is not a 
-                substitute for medical <a id="massage_anchor">treatment,</a> but may server as a compliment to most kinds of therapy.</p>
+                substitute for medical <a href="massage_anchor" id="massage_anchor">treatment,</a> but may server as a compliment to most kinds of therapy.</p>
               </article>
               <article className="wax_article">
                 <div className="nav_header">
