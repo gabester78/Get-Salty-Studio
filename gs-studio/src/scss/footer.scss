@@ -14,6 +14,12 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: $tablet) {
+      width: 700px;
+    }
+    @media (max-width: $mobile) {
+      width: 325px;
+    }
     .foot_text {
       font-size: 1rem;
     }

@@ -3,6 +3,9 @@ nav {
     display: block;
     margin: 20px auto;
     height: 275px;
+    @media (max-width: $mobile) {
+      height: 200px;
+    }
   }
   .navbar {
     display: flex;
@@ -14,6 +17,9 @@ nav {
       text-decoration: none;
       color: white;
       margin: 0px 30px;
+      @media (max-width: $mobile) {
+        margin: 0px 15px;
+      }
 
       :hover {
         color: $teal;
