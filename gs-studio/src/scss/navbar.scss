@@ -4,7 +4,7 @@ nav {
     margin: 20px auto;
     height: 275px;
     @media (max-width: $mobile) {
-      width: 300px;
+      height: 150px;
     }
   }
   .navbar {
@@ -13,10 +13,9 @@ nav {
     justify-content: center;
     background-color: $blue;
     padding: 15px;
-    // @media (max-width: $mobile) {
-    //   flex-direction: column;
-    //   align-items: center;
-    // }
+    @media (max-width: $mobile) {
+      flex-wrap: wrap;
+    }
     a {
       text-decoration: none;
       color: white;
