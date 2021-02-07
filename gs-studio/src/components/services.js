@@ -29,7 +29,7 @@ const Services = () => {
                 <article className="cards">
                   <h5>The Sweet + <span className="blue_text">Salty</span></h5>
                   <img className="blue_borders" src={blue_border_short} alt="wavy teal line graphic"/>
-                    <p><span className="bold_text">1</span> Hour <span className="blue_text">$25</span></p>
+                    <p><span className="bold_text">1</span> Hour <span className="blue_text">$55</span></p>
                     <p>Halotherapy session, Hand paraffin + Chair Massage</p>
                 </article>
                 <article className="cards">
@@ -48,7 +48,7 @@ const Services = () => {
                 <article className="cards">
                   <h5><span className="blue_text">Salty</span> Couples Massage</h5>
                   <img className="blue_borders" src={blue_border_short} alt="wavy teal line graphic"/>
-                    <p><span className="bold_text">1</span> Hour massage in salt room <span className="blue_text">$80 pp</span> <span className="bold_text">&#40;First Tuesday of the month&#41;</span></p>
+                    <p><span className="bold_text">1</span> Hour massage in salt room <span className="blue_text">$90 pp</span></p>
                 </article>
                 <article className="cards">
                   <h5>The VIP Package</h5>
@@ -114,7 +114,7 @@ const Services = () => {
                 <h5>Glow + Go Express</h5>
                 <img className="article_border" src={blue_border} alt="wavy teal line graphic"/>
                 <p><span className="bold_text">45</span> mins <span className="blue_text">$50</span></p>
-                <p>Rose Quartz Facial without hand paraffin, arm + hand <a href="fitness_anchor" id="fitness_anchor">massage.</a></p>
+                <p>Rose Quartz Facial without hand paraffin, arm + hand <span id="fitness_anchor">massage.</span></p>
               </article>
               <article>
                 <div className="nav_header">
@@ -153,7 +153,7 @@ const Services = () => {
                 <p>It also improves muscle tone in the face and neck, lifts jowls + eyebrows. It reduces + eliminates fine 
                   lines and wrinkles, improves facial circulation, aids in lymphatic drainage, + enhances product penetration 
                   to treat multiple skin problems.</p>
-                <p className="tags">this procedure cannot be performed on persons with epilepsy, a pacemaker, active cancer, + women that may be <a href="waxing_anchor" id="waxing_anchor">pregnant.</a></p>
+                <p className="tags">this procedure cannot be performed on persons with epilepsy, a pacemaker, active cancer, + women that may be <span id="waxing_anchor">pregnant.</span></p>
               </article>
               <article className="wax_article">
                 <div className="nav_header">
@@ -235,7 +235,15 @@ const Services = () => {
                 <p>Reflexology can help reduce pain, encourage relaxation, improve blood low, aid post-surgery 
                   recovery, reduce toxins in the body, + help with the overall reduction of daily stress.</p>
                 <p className="tags"><span className="blue_text">Please note:</span> A reflexologist is not a medical doctor. Reflexology is not a 
-                substitute for medical <a href="massage_anchor" id="massage_anchor">treatment,</a> but may server as a compliment to most kinds of therapy.</p>
+                substitute for medical treatment, but may server as a compliment to most kinds of therapy.</p>
+              </article>
+              <article>
+                <h5><span className="blue_text">Salty</span> Reflexology</h5>
+                <img className="article_border" src={blue_border} alt="wavy teal line graphic"/>
+                <p><span className="bold_text">1</span> hour session <span className="blue_text">$55</span></p>
+                <p>Same as reflexology, but in the <span className="blue_text">Halotherapy</span> room.</p>
+                <p className="tags"><span className="blue_text">Please note:</span> A reflexologist is not a medical doctor. Reflexology is not a 
+                substitute for medical <span id="massage_anchor">treatment,</span> but may server as a compliment to most kinds of therapy.</p>
               </article>
               <article className="wax_article">
                 <div className="nav_header">
