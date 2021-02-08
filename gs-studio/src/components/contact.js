@@ -12,15 +12,15 @@ const Contact = () => {
             <article className="contact_container">
               <div className="contact_info">
                 <div className="contact">
-                  <img id="icons" src={phone} alt="icon of a phone" />
+                  <img className="icons" src={phone} alt="icon of a phone" />
                   <h4>815-307-2139</h4>
                 </div>
                 <div className="contact">
-                  <a href="mailto:contact@getsaltystudio.com" target="_blank" rel="noreferrer"><img id="icons" src={envelope} alt="Icon of an envelope" /></a>
+                  <a href="mailto:contact@getsaltystudio.com" target="_blank" rel="noreferrer"><img id="email_icon" className="icons" src={envelope} alt="Icon of an envelope" /></a>
                   <a href="mailto:contact@getsaltystudio.com" target="_blank" rel="noreferrer">contact@getsaltystudio.com</a>
                 </div>
                 <div className="contact">
-                  <img id="icons" src={location} alt="location icon" />
+                  <img className="icons" src={location} alt="location icon" />
                   <h4>2020 Johnsburg Rd, Johnsburg, IL</h4>
                 </div>
               </div>
