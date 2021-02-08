@@ -3,6 +3,9 @@ nav {
     display: block;
     margin: 20px auto;
     height: 275px;
+    @media (max-width: $tablet) {
+      height: 225px;
+    }
     @media (max-width: $mobile) {
       height: 150px;
     }
@@ -15,13 +18,14 @@ nav {
     padding: 15px;
     @media (max-width: $mobile) {
       flex-wrap: wrap;
+      // width: 90%;
     }
     a {
       text-decoration: none;
       color: white;
       margin: 0px 30px;
       @media (max-width: $mobile) {
-        margin: 10px 15px;
+        margin: 5px 15px;
         font-size: 0.8rem;
       }
 

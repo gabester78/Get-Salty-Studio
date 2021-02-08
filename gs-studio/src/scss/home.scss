@@ -2,10 +2,9 @@ main {
   .hero {
     width: 800px;
     @media (max-width: $tablet) {
-      width: 700px;
-    }
-    @media (max-width: $mobile) {
-      width: 325px;
+      width: 100%;
+      display: block;
+      margin: 0px auto;
     }
   }
 
@@ -13,10 +12,11 @@ main {
     width: 800px;
     margin: 0px auto;
     @media (max-width: $tablet) {
-      width: 700px;
+      width: 85%;
+      // margin: 0px 42.5px;
     }
     @media (max-width: $mobile) {
-      width: 325px;
+      // margin: 0px auto;
     }
 
     h1 {
@@ -42,10 +42,11 @@ main {
       flex-direction: row;
       justify-content: space-between;
       @media (max-width: $tablet) {
-        width: 700px;
+        width: 95%;
+        margin: 0px auto;
       }
       @media (max-width: $mobile) {
-        width: 325px;
+        width: 90%;
         flex-direction: column;
         align-items: center;
       }
@@ -54,19 +55,16 @@ main {
         width: 32%;
 
         @media (max-width: $tablet) {
-          width: 28%;
+          width: 31%;
         }
         @media (max-width: $mobile) {
-          width: 58%;
+          width: 75%;
           margin-bottom: 30px;
         }
 
         .blue_borders {
           margin: 20px 0px;
           width: 100%;
-          // @media (max-width: $mobile) {
-          //   width: 60%;
-          // }
         }
       }
     }

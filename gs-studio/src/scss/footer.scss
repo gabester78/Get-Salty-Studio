@@ -4,7 +4,7 @@ footer {
 
   img {
     height: 25px;
-    margin: 0px 8px;
+    margin-left: 15px;
   }
   .foot_container {
     width: 800px;
@@ -15,11 +15,10 @@ footer {
     justify-content: space-between;
     align-items: center;
     @media (max-width: $tablet) {
-      width: 700px;
+      width: 90%;
+      // margin: 30px 15px 0px 15px;
     }
-    @media (max-width: $mobile) {
-      width: 325px;
-    }
+
     .foot_text {
       font-size: 1rem;
     }

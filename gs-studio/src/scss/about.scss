@@ -4,6 +4,9 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    @media (max-width: $mobile) {
+      width: 325px;
+    }
 
     .heading {
       margin: 60px auto 0px auto;
@@ -17,6 +20,11 @@ main {
       display: flex;
       align-items: center;
       margin: 30px 0px;
+      width: 800px;
+      @media (max-width: $mobile) {
+        width: 325px;
+        flex-direction: column;
+      }
 
       .border {
         width: 100%;
@@ -27,6 +35,9 @@ main {
         margin-right: 20px;
         border: 5px solid $teal;
         border-radius: 100%;
+        @media (max-width: $mobile) {
+          width: 50%;
+        }
       }
 
       .headshot2 {
@@ -34,16 +45,22 @@ main {
         margin-right: 20px;
         border: 5px solid $blue;
         border-radius: 100%;
+        @media (max-width: $mobile) {
+          width: 50%;
+        }
       }
 
       img {
         margin: 20px 0px;
       }
-      h1 {
-        font-size: 1.6rem;
-      }
-      p {
-        font-size: 1.2rem;
+
+      .profile {
+        .profile_h1 {
+          @media (max-width: $mobile) {
+            text-align: center;
+            line-height: 1.2;
+          }
+        }
       }
     }
   }
