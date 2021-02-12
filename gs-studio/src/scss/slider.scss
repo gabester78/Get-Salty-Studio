@@ -1,6 +1,7 @@
 .slider_container {
   display: flex;
   align-items: center;
+  height: 450px;
 
   .slider_arrow_left {
     width: 30px;
@@ -20,11 +21,12 @@
 
   .slide {
     opacity: 1;
-    // transition-duration: 2s ease;
+    transition-duration: 1s ease;
   }
 
   .slide.active {
     opacity: 1;
     transition-duration: 2s;
+    transform: scale(1.02);
   }
 }
