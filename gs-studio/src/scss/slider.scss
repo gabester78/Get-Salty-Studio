@@ -3,6 +3,10 @@
   align-items: center;
   height: 450px;
 
+  @media (max-width: $tablet) {
+    height: 380px;
+  }
+
   .slider_arrow_left {
     width: 30px;
     height: 30px;
@@ -17,6 +21,9 @@
   .slider_images {
     width: 700px;
     overflow: hidden;
+    @media (max-width: $tablet) {
+      width: 100%;
+    }
   }
 
   .slide {

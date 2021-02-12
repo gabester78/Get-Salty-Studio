@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "../images/Hero_Image.png"
 import teal_border from "../images/teal_border.svg"
 import blue_border_short from "../images/blue_border_short.svg"
 import Slider from "./slider"
@@ -7,6 +8,7 @@ const Home = () => {
   return (
         <main> 
           <div className="main_container">
+            <img src={Hero} className="hero" alt="Woman relaxing in the salt room" />
             <section className="slider">
               <Slider />
             </section>
