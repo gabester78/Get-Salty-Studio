@@ -1,0 +1,30 @@
+.slider_container {
+  display: flex;
+  align-items: center;
+
+  .slider_arrow_left {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+  .slider_arrow_right {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+  }
+
+  .slider_images {
+    width: 700px;
+    overflow: hidden;
+  }
+
+  .slide {
+    opacity: 1;
+    // transition-duration: 2s ease;
+  }
+
+  .slide.active {
+    opacity: 1;
+    transition-duration: 2s;
+  }
+}
