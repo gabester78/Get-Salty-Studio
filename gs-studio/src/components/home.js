@@ -1,5 +1,4 @@
 import React from "react";
-import Hero_Image from "../images/Hero_Image.png"
 import teal_border from "../images/teal_border.svg"
 import blue_border_short from "../images/blue_border_short.svg"
 import Slider from "./slider"
@@ -11,7 +10,6 @@ const Home = () => {
             <section className="slider">
               <Slider />
             </section>
-            {/* <img className="hero" src={Hero_Image} alt="Woman relaxing during halotherapy"/> */}
             <div>
               <h1>How does halotherapy (dry salt therapy) work?</h1>
               <img className="borders" src={teal_border} alt="wavy teal line graphic"/>
