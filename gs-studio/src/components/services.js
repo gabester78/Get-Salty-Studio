@@ -35,7 +35,7 @@ const Services = () => {
                 <article className="cards">
                   <h5>Girls Night Out</h5>
                   <img className="blue_borders" src={blue_border_short} alt="wavy teal line graphic"/>
-                    <p><span className="bold_text">2</span> Hours + <span className="bold_text">15</span> Mins <span className="blue_text">$100 pp</span></p>
+                    <p><span className="bold_text">3</span> Hours <span className="blue_text">$100 pp</span>, <span className="bold_text">4-6</span> person Minimum</p>
                     <p>Halotherapy session, Oxygen treatment, LED light therapy, Hand paraffin + Chair Massage</p>
                 </article>
               </div>

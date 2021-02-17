@@ -44,10 +44,10 @@ const About = () => {
                 <h1 className="profile_h1">Becca - Licensed Massage Therapist</h1>
                 <img className="border" src={teal_border} alt="wavy teal line graphic" />
                 <p>Becca graduated 
-                  from Cortiva massage school in 2014 &amp; is currently finishing her degree to be a Physical Therapist Assistant 
-                  from McHenry County College. Her massage technique ranges from Swedish Massage to firm pressure. As an introductory 
-                  offer, Sunday Salty Massage is $80 for 45 mins of Halotherapy with Becca. Also check out her salty stretch (45mins in Salt 
-                  Room) &amp; Hot Stone Salty massage coming soon to Get Salty on Sundays. Details on those new services will be posted soon. 
+                  from Cortiva massage school in 2014 &amp; is currently finishing her degree to become a Physical Therapist Assistant 
+                  from McHenry County College. Her massage techniques range from Swedish Massage to firm pressure. As an introductory 
+                  offer, Sunday Salty Massage is $80 for 45 mins of Halotherapy with Becca. Also check out her salty stretch (45 mins in the Salt 
+                  Room) &amp; Hot Stone Salty massage coming soon to Get Salty on Sundays. Details on those new services will be coming soon. 
                   She looks forward getting Salty with you on Sundays! 
                 </p>
               </div>
