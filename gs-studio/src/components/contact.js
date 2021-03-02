@@ -8,13 +8,18 @@ const Contact = () => {
   return (
         <main>
           <section>
-            <h1 className="contact_heading">Please call or email us to set your appointment today! We do not accept walk-ins.</h1>
+            <h1 className="contact_heading">Please set your appointment today! We do not accept walk-ins.</h1>
             <article className="contact_container">
               <div className="contact_info">
+                <a href="https://square.site/book/QCJ7MZTW2Q20S/get-salty-skincare-studio-llc-johnsburg-il" target="_blank" rel="noreferrer"><h5>Click here to schedule a Halotherapy or Sauna Pod appointment.</h5></a>
+                <div className="divider_container">
+                  <h5 className="divider">Or</h5>
+                  <span className="line"></span>
+                </div>
                 <h5>Click below to call or email us at:</h5>
                 <div className="contact">
                   <img className="icons" src={phone} alt="icon of a phone" />
-                  <a href="tel:8153072139"><h4>815-307-2139</h4></a>
+                  <a href="tel:8153072139"><h5>815-307-2139</h5></a>
                 </div>
                 <div className="contact">
                   <img id="email_icon" className="icons" src={envelope} alt="Icon of an envelope" />
