@@ -33,6 +33,10 @@
     width: 90%;
   }
 
+  .services_hero {
+    margin: 8px 0px 0px 0px;
+  }
+
   .services_heading {
     margin: 60px auto 60px auto;
   }
@@ -72,6 +76,34 @@
         }
       }
     }
+  }
+
+  .GNO_card_container {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: $mobile) {
+      flex-direction: column;
+    }
+
+    .GNO_cards {
+      width: 46%;
+      @media (max-width: $mobile) {
+        width: 75%;
+        margin: 30px auto;
+      }
+
+      .blue_borders_GNO {
+        margin: 20px 0px 10px 0px;
+        width: 75%;
+        @media (max-width: $mobile) {
+          width: 60%;
+        }
+      }
+    }
+  }
+
+  .GNO_p {
+    margin-bottom: 20px;
   }
 
   article {

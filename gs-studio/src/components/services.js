@@ -3,6 +3,7 @@ import teal_border from "../images/teal_border.svg"
 import blue_border from "../images/blue_border.svg"
 import blue_border_short from "../images/blue_border_short.svg"
 import up_arrow from '../images/arrow-circle-up-solid.svg'
+import pods from '../images/pods.jpg'
 
 const Services = () => {
   return (
@@ -13,9 +14,18 @@ const Services = () => {
             <a href="#massage_anchor"><p>Massage Therapy</p></a>
           </nav>
           <section className="services_container">
+            <img className="services_hero" src={pods} alt="clients in sauna pod"/>
             <h1 className="services_heading">Our Services</h1>
-              <h4 className="card_heading">Packages</h4>
-              <img className="borders" src={teal_border} alt="wavy teal line graphic"/>
+            <article>
+              <h4>Sauna Pods</h4>
+              <img className="article_border_headings" src={teal_border} alt="wavy teal line graphic"/>
+              <p><span className="bold_text">30</span> mins <span className="blue_text">$25</span></p>
+              <p>The sauna pods <span className="blue_text">raise core temperature</span>, elevating the heart rate to boost metabolism. Book a session for
+              <span className="blue_text">detoxification, relaxation, a metabolism boost, immune system support, + decrease pain.</span> The sauna pods
+                use infrared light to help with pain, joints + muscles, + muscle recovery for a work out.</p> 
+            </article>
+            <h4 className="card_heading">Packages</h4>
+            <img className="borders" src={teal_border} alt="wavy teal line graphic"/>
               <div className="card_container">
                 <article className="cards">
                   <h5>Halotherapy <span className="blue_text">&#40;salt room&#41;</span></h5>
@@ -33,10 +43,10 @@ const Services = () => {
                     <p>Halotherapy session, Hand paraffin + Chair Massage</p>
                 </article>
                 <article className="cards">
-                  <h5>Girls Night Out</h5>
+                  <h5><span className="blue_text">Salty</span> + Sauna</h5>
                   <img className="blue_borders" src={blue_border_short} alt="wavy teal line graphic"/>
-                    <p><span className="bold_text">3</span> Hours <span className="blue_text">$100 pp</span>, <span className="bold_text">4-6</span> person Minimum</p>
-                    <p>Halotherapy session, Oxygen treatment, LED light therapy, Hand paraffin + Chair Massage</p>
+                    <p><span className="bold_text">1</span> Hour + <span className="bold_text">15</span> mins <span className="blue_text">$50</span></p>
+                    <p>Halotherapy session + Sauna Pod</p>
                 </article>
               </div>
               <div className="card_container">
@@ -57,6 +67,40 @@ const Services = () => {
                     <p>Halotherapy session, Custom Facial, <span className="bold_text">1</span> Hour massage</p>
                 </article>
               </div>
+              <article>
+                  <h5>Girls Night Out</h5>
+                  <img className="article_border" src={blue_border} alt="wavy teal line graphic"/>
+                  <p className="GNO_p">GNO parties are a private event for a minimum of 4 and a maximum 6 people. 
+                  You may choose from any of the 4 packages below.</p>
+                <div className="GNO_card_container">  
+                  <article className="GNO_cards">
+                    <h5>Package 1</h5>
+                    <img className="blue_borders_GNO" src={blue_border_short} alt="wavy teal line graphic"/>
+                      <p><span className="bold_text">3</span> Hours <span className="blue_text">$100 pp</span>, 5 services</p>
+                      <p>Halotherapy session, Oxygen treatment, LED light therapy, Hand paraffin + Chair Massage</p>
+                  </article>
+                  <article className="GNO_cards">
+                    <h5>Package 2</h5>
+                    <img className="blue_borders_GNO" src={blue_border_short} alt="wavy teal line graphic"/>
+                      <p><span className="blue_text">$80 pp</span>, 4 services</p>
+                      <p>Halotherapy, Hand paraffin, Light treatment, + Sauna pod</p>
+                  </article>
+                </div>
+                <div className="GNO_card_container">  
+                  <article className="GNO_cards">
+                    <h5>Package 3</h5>
+                    <img className="blue_borders_GNO" src={blue_border_short} alt="wavy teal line graphic"/>
+                      <p><span className="blue_text">$100 pp</span>, 5 services</p>
+                      <p>Halotherapy, Hand paraffin, Manicure, Light treatment, + Sauna pod</p>
+                  </article>
+                  <article className="GNO_cards">
+                    <h5>Package 4</h5>
+                    <img className="blue_borders_GNO" src={blue_border_short} alt="wavy teal line graphic"/>
+                      <p><span className="blue_text">$105 pp</span>, 4 services</p>
+                      <p>Halotherapy, Sauna pod, Hand paraffin, + Collagen sheet mask with Oxygen Treatment</p>
+                  </article>
+                </div>  
+              </article>
               <article>
                 <h4>Facials</h4>
                 <img className="article_border_headings" src={teal_border} alt="wavy teal line graphic"/>

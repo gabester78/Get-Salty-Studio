@@ -2,7 +2,6 @@ import React from "react";
 import Heather from "../images/Heather.png"
 import Shannon from "../images/Shannon.png"
 import Celena from "../images/Celena.png"
-import Becca from "../images/Becca.png"
 import teal_border from "../images/teal_border.svg"
 import blue_border from "../images/blue_border.svg"
 
@@ -38,20 +37,6 @@ const About = () => {
                 </p>
               </div>
             </section>            
-            <section className="profile_container">
-              <img className="headshot" src={Becca} alt="headshot of Becca"/>
-              <div className="profile">
-                <h1 className="profile_h1">Becca - Licensed Massage Therapist</h1>
-                <img className="border" src={teal_border} alt="wavy teal line graphic" />
-                <p>Becca graduated 
-                  from Cortiva massage school in 2014 &amp; is currently finishing her degree to become a Physical Therapist Assistant 
-                  from McHenry County College. Her massage techniques range from Swedish Massage to firm pressure. As an introductory 
-                  offer, Sunday Salty Massage is $80 for 45 mins of Halotherapy with Becca. Also check out her salty stretch (45 mins in the Salt 
-                  Room) &amp; Hot Stone Salty massage coming soon to Get Salty on Sundays. Details on those new services will be coming soon. 
-                  She looks forward getting Salty with you on Sundays! 
-                </p>
-              </div>
-            </section>
             <section className="profile_container">
               <img className="headshot2" src={Celena} alt="headshot of Celena"/>
               <div className="profile">
