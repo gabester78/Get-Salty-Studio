@@ -1,3 +1,3 @@
 # Get-Salty-Studio
 
-A webapp for a skincare studio.
+<p>A web app for a skincare studio.</p>
