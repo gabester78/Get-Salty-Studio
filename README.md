@@ -4,4 +4,4 @@
 
 <p>A web app for a skincare studio.</p>
 
-<p>Deployed app -https://get-salty-studio.vercel.app/</p>
+<p>Deployed app - https://get-salty-studio.vercel.app/</p>
