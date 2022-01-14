@@ -62,8 +62,6 @@ const Contact = () => {
               allowfullscreen=""
               loading="lazy"
             ></iframe>
-            {/* <img className="map" src={map} alt="Map of studio location" />
-                <a href="https://www.google.com/maps/dir//2020+Johnsburg+Rd,+Johnsburg,+IL+60051/@42.3809965,-88.2398258,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x880f79fd681c9a4b:0x405f71cf2fb406b2!2m2!1d-88.2376371!2d42.3809926" target="_blank" rel="noreferrer"><p>Need directions? Click here!</p></a> */}
           </div>
         </article>
 

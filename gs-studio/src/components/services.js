@@ -137,7 +137,7 @@ const Services = () => {
             />
             <p>
               <span className="bold_text">1</span> Hour massage in salt room{" "}
-              <span className="blue_text">$90</span>{" "}
+              <span className="blue_text">$95</span>{" "}
               <span className="bold_text">
                 &#40;See Facebook page for dates&#41;
               </span>
@@ -262,7 +262,7 @@ const Services = () => {
           </p>
           <p>
             All facials include a skin analysis, soothing aromatherapy shoulder,
-            neck, face, arm, hand massage and hand paraffin
+            neck, face, arm, and hand massage.
           </p>
         </article>
         <article>
@@ -275,7 +275,7 @@ const Services = () => {
           <p>
             <span className="bold_text">1</span> Hour to an hour +{" "}
             <span className="bold_text">15</span> mins{" "}
-            <span className="blue_text">$60</span>
+            <span className="blue_text">$65</span>
           </p>
           <p>
             The Rose Quartz Facial is different than your standard facial. Rose
@@ -389,23 +389,7 @@ const Services = () => {
             such as fine lines, scarring + pigmentation. Enhances product
             absorbtion and drives ingredients deep into the skin. Offers
             immediate and longterm results. Includes hot stone arm + hand
-            massage with LED light therapy.
-          </p>
-        </article>
-        <article>
-          <h5>Glow + Go Express</h5>
-          <img
-            className="article_border"
-            src={blue_border}
-            alt="wavy teal line graphic"
-          />
-          <p>
-            <span className="bold_text">45</span> mins{" "}
-            <span className="blue_text">$50</span>
-          </p>
-          <p>
-            Rose Quartz Facial without hand paraffin, arm + hand{" "}
-            <span id="fitness_anchor">massage.</span>
+            massage with LED light <span id="fitness_anchor">therapy.</span>
           </p>
         </article>
         <article>
@@ -545,7 +529,7 @@ const Services = () => {
               Men's Back <span className="blue_text">$25</span>
             </li>
             <li>
-              Bikini <span className="blue_text">$35</span>
+              Bikini <span className="blue_text">$40</span>
             </li>
             <li>
               Brazilian <span className="blue_text">$50</span>
