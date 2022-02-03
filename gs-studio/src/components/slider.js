@@ -5,9 +5,12 @@ import Towels from "../images/towels.jpg";
 import Family from "../images/family.jpg";
 import Cheers from "../images/cheers.jpg";
 import Group from "../images/Group1.jpg";
-import Group2 from "../images/Group2.jpg";
 import ArrowLeft from "../images/arrow-circle-left-solid.svg";
 import ArrowRight from "../images/arrow-circle-right-solid.svg";
+import SaltRoomChairs from "../images/salt-room-chairs.jpg";
+import SaltRoomMassage2 from "../images/salt-room-massage-2.jpg";
+import SaltRoomMassage from "../images/salt-room-massage.jpg";
+import SaunaPods from "../images/sauna-pod.jpg";
 
 const SliderData = [
   {
@@ -17,16 +20,25 @@ const SliderData = [
     image: Group,
   },
   {
+    image: SaltRoomMassage2,
+  },
+  {
     image: Chair,
+  },
+  {
+    image: SaunaPods,
   },
   {
     image: Family,
   },
   {
-    image: Group2,
+    image: SaltRoomChairs,
   },
   {
     image: Towels,
+  },
+  {
+    image: SaltRoomMassage,
   },
   {
     image: Cheers,
