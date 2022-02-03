@@ -1,7 +1,6 @@
 import React from "react";
 import Heather from "../images/Heather2.png";
 import Shannon from "../images/Shannon.png";
-import Celena from "../images/Celena.png";
 import teal_border from "../images/teal_border.svg";
 import blue_border from "../images/blue_border.svg";
 
@@ -47,29 +46,9 @@ const About = () => {
             />
             <p>
               Heather Schultz, licensed massage therapist, graduated from
-              Chicago’s The SOMA institute: School of Clinical Massage Therapy,
+              Chicago's The SOMA institute: School of Clinical Massage Therapy,
               in 2002. Working with chiropractors and naprapaths for most of her
               career, specializing in therapeutic techniques.
-            </p>
-          </div>
-        </section>
-        <section className="profile_container">
-          <img className="headshot" src={Celena} alt="headshot of Celena" />
-          <div className="profile">
-            <h1 className="profile_h1">CeLena - Licensed Nail Technician</h1>
-            <img
-              className="border"
-              src={teal_border}
-              alt="wavy teal line graphic"
-            />
-            <p>
-              CeLena provides the highest level of customer service. She is a
-              perfectionist and recommends the best colors, designs, and
-              treatments for you. She will make your nails and toes look and
-              feel amazing! Specializing in the safe Mani-Pedi, new files, &amp;
-              pedicure liners are used, ensuring a safe experience for all.
-              CeLena has quickly become one of the leading nail technicians in
-              the area.
             </p>
           </div>
         </section>
