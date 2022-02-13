@@ -62,7 +62,7 @@ const Slider = () => {
       <img
         src={ArrowLeft}
         className="slider_arrow_left"
-        alt="Left arrow icon"
+        alt="Left nav arrow icon"
         onClick={prevSlide}
       />
       {SliderData.map((slide, index) => {
@@ -84,7 +84,7 @@ const Slider = () => {
       <img
         src={ArrowRight}
         className="slider_arrow_right"
-        alt="Right arrow icon"
+        alt="Right nav arrow icon"
         onClick={nextSlide}
       />
     </article>
