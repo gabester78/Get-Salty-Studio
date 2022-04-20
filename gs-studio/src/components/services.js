@@ -227,8 +227,8 @@ const Services = () => {
                 <span className="blue_text">$100 pp</span>, 5 services
               </p>
               <p>
-                Halotherapy, Hand paraffin, Manicure, Light treatment, + Sauna
-                pod
+                Halotherapy, Hand paraffin, Chair Massage, Light treatment, +
+                Sauna pod
               </p>
             </article>
             <article className="GNO_cards">
