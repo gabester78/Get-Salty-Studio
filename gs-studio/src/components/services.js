@@ -124,7 +124,7 @@ const Services = () => {
             <p>
               <span className="bold_text">1</span> Hour +{" "}
               <span className="bold_text">15</span> mins{" "}
-              <span className="blue_text">$50</span>
+              <span className="blue_text">$55</span>
             </p>
             <p>Halotherapy session + Sauna Pod</p>
           </article>

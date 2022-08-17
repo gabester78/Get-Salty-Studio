@@ -110,7 +110,9 @@ const About = () => {
               Roland, licensed massage therapist, graduated from Elgin Community
               College in 2014 and has practiced ever since. He specializes in
               Swedish, deep tissue, trigger point, and prenatal massage
-              &#40;soon to be certified in myofascial and stretching&#41;.
+              &#40;soon to be certified in myofascial and stretching&#41;. To
+              schedule call/text directly at{" "}
+              <a href="tel:2248002267">224-800-2267</a>
             </p>
           </div>
         </section>
