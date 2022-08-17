@@ -12,7 +12,7 @@ const Contact = () => {
         </h1>
         <article className="contact_container">
           <div className="contact_info">
-            <a
+            {/* <a
               href="https://square.site/book/QCJ7MZTW2Q20S/get-salty-skincare-studio-llc-johnsburg-il"
               target="_blank"
               rel="noreferrer"
@@ -20,11 +20,11 @@ const Contact = () => {
               <h5>
                 Click here to schedule a Halotherapy or Sauna Pod appointment.
               </h5>
-            </a>
-            <div className="divider_container">
+            </a> */}
+            {/* <div className="divider_container">
               <h5 className="divider">Or</h5>
               <span className="line"></span>
-            </div>
+            </div> */}
             <h5>Click below to call or email us at:</h5>
             <div className="contact">
               <img className="icons" src={phone} alt="icon of a phone" />

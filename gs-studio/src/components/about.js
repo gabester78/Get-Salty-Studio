@@ -1,6 +1,9 @@
 import React from "react";
-import Heather from "../images/Heather2.png";
-import Shannon from "../images/Shannon.png";
+import Heather from "../images/Heather-HS.png";
+import Shannon from "../images/Shannon-HS.png";
+import Roland from "../images/Roland-HS.png";
+import Malorie from "../images/Malorie-HS.png";
+import McKayla from "../images/McKayla-HS.png";
 import teal_border from "../images/teal_border.svg";
 import blue_border from "../images/blue_border.svg";
 
@@ -36,19 +39,76 @@ const About = () => {
           </div>
         </section>
         <section className="profile_container">
-          <img className="headshot2" src={Heather} alt="headshot of Heather" />
+          <img className="headshot2" src={McKayla} alt="headshot of McKayla" />
           <div className="profile">
-            <h1 className="profile_h1">Heather - Licensed Massage Therapist</h1>
+            <h1 className="profile_h1">McKayla - Licensed Esthetician</h1>
             <img
               className="border"
               src={blue_border}
               alt="wavy teal line graphic"
             />
             <p>
+              McKayla Sellek, Licensed Esthetician, graduated from International
+              Skin Beauty Academy in Schaumburg in Spring of 2022. The services
+              she provides are facials, eyebrow waxing and tinting, lash lifts
+              and tinting, Cold Stone Therapy, and more to come.
+            </p>
+          </div>
+        </section>
+        <section className="profile_container">
+          <img className="headshot" src={Heather} alt="headshot of Heather" />
+          <div className="profile">
+            <h1 className="profile_h1">Heather - Licensed Massage Therapist</h1>
+            <img
+              className="border"
+              src={teal_border}
+              alt="wavy teal line graphic"
+            />
+            <p>
               Heather Schultz, licensed massage therapist, graduated from
               Chicago's The SOMA institute: School of Clinical Massage Therapy,
-              in 2002. Working with chiropractors and naprapaths for most of her
-              career, specializing in therapeutic techniques.
+              in 2002. Before joining Get Salty, most of her 20 year career has
+              been working with chiropractors and naprapaths. She specializes in
+              therapeutic techniques including; deep tissue, myofascial, trigger
+              point, Swedish, hot stone and prenatal massage. To schedule call/
+              text directly at <a href="tel:8158615337">815-353-8088</a>
+            </p>
+          </div>
+        </section>
+        <section className="profile_container">
+          <img className="headshot2" src={Malorie} alt="headshot of Malorie" />
+          <div className="profile">
+            <h1 className="profile_h1">Malorie - Licensed Massage Therapist</h1>
+            <img
+              className="border"
+              src={blue_border}
+              alt="wavy teal line graphic"
+            />
+            <p>
+              Malorie Smale, licensed massage therapist, graduated from Cortiva
+              Institute in 2006 and is certified in myofascial release and
+              prenatal massage. Malorie uses a carbonation of therapeutic and
+              relaxation techniques acquired over her 16 years of experience and
+              training to provide soothing customized massage treatments for
+              every client. To schedule call/text directly at{" "}
+              <a href="tel:8158615337">815-307-2139</a>
+            </p>
+          </div>
+        </section>
+        <section className="profile_container">
+          <img className="headshot" src={Roland} alt="headshot of Roland" />
+          <div className="profile">
+            <h1 className="profile_h1">Roland - Licensed Massage Therapist</h1>
+            <img
+              className="border"
+              src={teal_border}
+              alt="wavy teal line graphic"
+            />
+            <p>
+              Roland, licensed massage therapist, graduated from Elgin Community
+              College in 2014 and has practiced ever since. He specializes in
+              Swedish, deep tissue, trigger point, and prenatal massage
+              &#40;soon to be certified in myofascial and stretching&#41;.
             </p>
           </div>
         </section>

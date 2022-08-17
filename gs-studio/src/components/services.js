@@ -31,7 +31,7 @@ const Services = () => {
           />
           <p>
             <span className="bold_text">30</span> mins{" "}
-            <span className="blue_text">$25</span>
+            <span className="blue_text">$30</span>
           </p>
           <p>
             The sauna pods{" "}
@@ -54,7 +54,7 @@ const Services = () => {
             alt="wavy teal line graphic"
           />
           <p>
-            <span className="blue_text">$100</span>
+            <span className="blue_text">$125</span>
           </p>
           <p>
             Laser Lipo, <span className="blue_text">Laser Cavitation,</span> +
@@ -80,9 +80,13 @@ const Services = () => {
             />
             <p>
               <span className="bold_text">1</span> Halotherapy session{" "}
-              <span className="blue_text">$25</span>
+              <span className="blue_text">$30</span>
             </p>
-            <div className="card_details">
+            <p>
+              Children &#40;with adult in room&#41;
+              <span className="blue_text">$5</span>
+            </p>
+            {/* <div className="card_details">
               <p>
                 <span className="bold_text">4</span> pack{" "}
                 <span className="blue_text">$85</span>
@@ -91,7 +95,7 @@ const Services = () => {
                 <span className="bold_text">6</span> pack{" "}
                 <span className="blue_text">$120</span>
               </p>
-            </div>
+            </div> */}
           </article>
           <article className="cards">
             <h5>
@@ -104,7 +108,7 @@ const Services = () => {
             />
             <p>
               <span className="bold_text">1</span> Hour{" "}
-              <span className="blue_text">$55</span>
+              <span className="blue_text">$65</span>
             </p>
             <p>Halotherapy session, Hand paraffin + Chair Massage</p>
           </article>
@@ -137,7 +141,7 @@ const Services = () => {
             />
             <p>
               <span className="bold_text">1</span> Hour massage in salt room{" "}
-              <span className="blue_text">$95</span>{" "}
+              <span className="blue_text">$100</span>{" "}
               <span className="bold_text">
                 &#40;See Facebook page for dates&#41;
               </span>
@@ -154,7 +158,7 @@ const Services = () => {
             />
             <p>
               <span className="bold_text">1</span> Hour massage in salt room{" "}
-              <span className="blue_text">$90 pp</span>
+              <span className="blue_text">$200 pp</span>
             </p>
           </article>
           <article className="cards">
@@ -166,7 +170,7 @@ const Services = () => {
             />
             <p>
               <span className="bold_text">3</span> Hours{" "}
-              <span className="blue_text">$160</span>
+              <span className="blue_text">$180</span>
             </p>
             <p>
               Halotherapy session, Custom Facial,{" "}
@@ -195,14 +199,14 @@ const Services = () => {
               />
               <p>
                 <span className="bold_text">3</span> Hours{" "}
-                <span className="blue_text">$100 pp</span>, 5 services
+                <span className="blue_text">$115 pp</span>, 5 services
               </p>
               <p>
                 Halotherapy session, Oxygen treatment, LED light therapy, Hand
                 paraffin + Chair Massage
               </p>
             </article>
-            <article className="GNO_cards">
+            {/* <article className="GNO_cards">
               <h5>Package 2</h5>
               <img
                 className="blue_borders_GNO"
@@ -213,6 +217,21 @@ const Services = () => {
                 <span className="blue_text">$80 pp</span>, 4 services
               </p>
               <p>Halotherapy, Hand paraffin, Light treatment, + Sauna pod</p>
+            </article> */}
+            <article className="GNO_cards">
+              <h5>Package 2</h5>
+              <img
+                className="blue_borders_GNO"
+                src={blue_border_short}
+                alt="wavy teal line graphic"
+              />
+              <p>
+                <span className="blue_text">$115 pp</span>, 5 services
+              </p>
+              <p>
+                Halotherapy, Hand paraffin, Chair Massage, Light treatment, +
+                Sauna pod
+              </p>
             </article>
           </div>
           <div className="GNO_card_container">
@@ -224,22 +243,7 @@ const Services = () => {
                 alt="wavy teal line graphic"
               />
               <p>
-                <span className="blue_text">$100 pp</span>, 5 services
-              </p>
-              <p>
-                Halotherapy, Hand paraffin, Chair Massage, Light treatment, +
-                Sauna pod
-              </p>
-            </article>
-            <article className="GNO_cards">
-              <h5>Package 4</h5>
-              <img
-                className="blue_borders_GNO"
-                src={blue_border_short}
-                alt="wavy teal line graphic"
-              />
-              <p>
-                <span className="blue_text">$105 pp</span>, 4 services
+                <span className="blue_text">$115 pp</span>, 4 services
               </p>
               <p>
                 Halotherapy, Sauna pod, Hand paraffin, + Collagen sheet mask
@@ -275,7 +279,7 @@ const Services = () => {
           <p>
             <span className="bold_text">1</span> Hour to an hour +{" "}
             <span className="bold_text">15</span> mins{" "}
-            <span className="blue_text">$65</span>
+            <span className="blue_text">$70</span>
           </p>
           <p>
             The Rose Quartz Facial is different than your standard facial. Rose
@@ -301,7 +305,7 @@ const Services = () => {
           <p>
             <span className="bold_text">1</span> Hour to an hour +{" "}
             <span className="bold_text">15</span> mins{" "}
-            <span className="blue_text">$70</span>
+            <span className="blue_text">$75</span>
           </p>
           <p>
             The Rose Quartz Facial but also includes extras with tons of
@@ -323,7 +327,7 @@ const Services = () => {
           />
           <p>
             <span className="bold_text">45</span> mins{" "}
-            <span className="blue_text">$35</span>
+            <span className="blue_text">$45</span>
           </p>
           <p className="tags">
             exfoliating hydrofacial machine • oxygen mask or LED
@@ -363,7 +367,7 @@ const Services = () => {
             alt="wavy teal line graphic"
           />
           <p>
-            <span className="blue_text">$80</span>
+            <span className="blue_text">$85</span>
           </p>
           <p>
             Combines cleansing, exfoliation, extraction, hydration +
@@ -408,7 +412,7 @@ const Services = () => {
             alt="wavy teal line graphic"
           />
         </article>
-        <article>
+        {/* <article>
           <h5>Facial Cupping</h5>
           <img
             className="article_border"
@@ -430,8 +434,8 @@ const Services = () => {
             décolletage • minimize the appearance of scars, fine lines +
             wrinkles • decrease TMJ pain and swelling • relax muscle tension
           </p>
-        </article>
-        <article>
+        </article> */}
+        {/* <article>
           <h5>Facial Sculpting</h5>
           <img
             className="article_border"
@@ -443,7 +447,7 @@ const Services = () => {
             <span className="blue_text">$35</span>
           </p>
           <p>Facial cupping + Gua sha</p>
-        </article>
+        </article> */}
         <article>
           <h5>Lunch Time Lift</h5>
           <img
@@ -453,7 +457,7 @@ const Services = () => {
           />
           <p>
             <span className="bold_text">30</span> mins{" "}
-            <span className="blue_text">$35</span>
+            <span className="blue_text">$45</span>
           </p>
           <p>
             Microcurrent is a popular treatment for aging skin. It uses low
@@ -494,13 +498,13 @@ const Services = () => {
         <article className="wax_list">
           <ul>
             <li>
-              Eyebrow <span className="blue_text">$10</span>
+              Eyebrow <span className="blue_text">$15</span>
             </li>
             <li>
               Lip <span className="blue_text">$7</span>
             </li>
             <li>
-              Brow + Lip <span className="blue_text">$15</span>
+              Brow + Lip <span className="blue_text">$20</span>
             </li>
             <li>
               Chin <span className="blue_text">$7</span>
@@ -523,10 +527,10 @@ const Services = () => {
               Half Leg <span className="blue_text">$30</span>
             </li>
             <li>
-              Men's Chest <span className="blue_text">$30</span>
+              Men's Chest <span className="blue_text">$35</span>
             </li>
             <li>
-              Men's Back <span className="blue_text">$25</span>
+              Men's Back <span className="blue_text">$30</span>
             </li>
             <li>
               Bikini <span className="blue_text">$40</span>
@@ -553,7 +557,7 @@ const Services = () => {
           />
           <p>
             <span className="bold_text">1</span> session{" "}
-            <span className="blue_text">$10</span>
+            <span className="blue_text">$15</span>
             <br></br>
             Twice a week for a series of 4 - 6 weeks
           </p>
@@ -573,7 +577,7 @@ const Services = () => {
           />
           <p>
             <span className="bold_text">30</span> min session{" "}
-            <span className="blue_text">$35</span>
+            <span className="blue_text">$40</span>
             <br></br>
             Once a week for 6 weeks
           </p>
@@ -599,10 +603,10 @@ const Services = () => {
           />
           <p>
             <span className="bold_text">30</span> min session{" "}
-            <span className="blue_text">$25</span>
-            <br></br>
+            <span className="blue_text">$30</span>
+            {/* <br></br>
             Purchase <span className="bold_text">4</span> Cold Stone Packages
-            for <span className="blue_text">$20</span> each.
+            for <span className="blue_text">$20</span> each. */}
           </p>
           <p>
             This technique is a relief for{" "}
@@ -631,7 +635,7 @@ const Services = () => {
           />
           <p>
             <span className="bold_text">1</span> session{" "}
-            <span className="blue_text">$60</span>
+            <span className="blue_text">$65</span>
           </p>
           <p>
             Back is cleaned, steamed + sugar scrubbed.{" "}
@@ -644,7 +648,7 @@ const Services = () => {
             applied to back.
           </p>
         </article>
-        <article>
+        {/* <article>
           <h5>Reflexology</h5>
           <img
             className="article_border"
@@ -672,7 +676,7 @@ const Services = () => {
             not a medical doctor. Reflexology is not a substitute for medical
             treatment, but may server as a compliment to most kinds of therapy.
           </p>
-        </article>
+        </article> */}
         <article>
           <h5>
             <span className="blue_text">Salty</span> Reflexology
@@ -683,12 +687,12 @@ const Services = () => {
             alt="wavy teal line graphic"
           />
           <p>
-            <span className="bold_text">1</span> hour session{" "}
+            <span className="bold_text">45</span> mins{" "}
             <span className="blue_text">$55</span>
           </p>
           <p>
-            Same as reflexology, but in the{" "}
-            <span className="blue_text">Halotherapy</span> room.
+            Reflexology in the <span className="blue_text">Halotherapy</span>{" "}
+            room.
           </p>
           <p className="tags">
             <span className="blue_text">Please note:</span> A reflexologist is
@@ -716,24 +720,28 @@ const Services = () => {
         <article className="wax_list">
           <ul>
             <li>
+              <span className="bold_text">15</span> mins{" "}
+              <span className="blue_text">$20</span>
+            </li>
+            <li>
               <span className="bold_text">30</span> mins{" "}
               <span className="blue_text">$40</span>
             </li>
             <li>
               <span className="bold_text">45</span> mins{" "}
-              <span className="blue_text">$55</span>
+              <span className="blue_text">$60</span>
             </li>
             <li>
               <span className="bold_text">60</span> mins{" "}
-              <span className="blue_text">$70</span>
+              <span className="blue_text">$75</span>
             </li>
             <li>
               <span className="bold_text">75</span> mins{" "}
-              <span className="blue_text">$85</span>
+              <span className="blue_text">$90</span>
             </li>
             <li>
               <span className="bold_text">90</span> mins{" "}
-              <span className="blue_text">$100</span>
+              <span className="blue_text">$110</span>
             </li>
           </ul>
         </article>
