@@ -53,7 +53,7 @@ const About = () => {
               Skin Beauty Academy in Schaumburg in Spring of 2022. The services
               she provides are facials, eyebrow waxing and tinting, lash lifts
               and tinting, Cold Stone Therapy, and more to come. To schedule
-              call/ text directly at <a href="tel:8156797534">815-679-7534</a>
+              call/text directly at <a href="tel:8156797534">815-679-7534</a>
             </p>
           </div>
         </section>
@@ -72,8 +72,8 @@ const About = () => {
               in 2002. Before joining Get Salty, most of her 20 year career has
               been working with chiropractors and naprapaths. She specializes in
               therapeutic techniques including; deep tissue, myofascial, trigger
-              point, Swedish, hot stone and prenatal massage. To schedule call/
-              text directly at <a href="tel:8158615337">815-353-8088</a>
+              point, Swedish, hot stone and prenatal massage. To schedule
+              call/text directly at <a href="tel:8158615337">815-353-8088</a>
             </p>
           </div>
         </section>
