@@ -73,7 +73,7 @@ const About = () => {
               been working with chiropractors and naprapaths. She specializes in
               therapeutic techniques including; deep tissue, myofascial, trigger
               point, Swedish, hot stone and prenatal massage. To schedule
-              call/text directly at <a href="tel:8158615337">815-353-8088</a>
+              call/text directly at <a href="tel:8153538088">815-353-8088</a>
             </p>
           </div>
         </section>
