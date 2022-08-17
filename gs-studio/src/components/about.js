@@ -23,18 +23,18 @@ const About = () => {
             />
             <p>
               Shannon Nolan, Licensed Esthetician since 1995. Specializing in
-              Botanical Skincare, Rose Quartz Facials, &amp; teen acne. She is
-              also a Certified Aromatherapist &amp; Certified Master Herbalist
-              all of which is incorporated into her Holistic Skincare Practice.
-              Shannon opened Get Salty Skincare Studio to not only create a
-              relaxing one of a kind space for her clients, but to be able to
-              provide an affordable alternative &amp; complimentary therapy
-              within her studio for guests with a variety of breathing &amp;
-              skin conditions. The idea of the Salt Room stemmed from wanting to
-              help her Father who has COPD &amp; her son who has terrible
-              allergies. She wanted to have a place to share the benefits that
-              the salt room provides for them with her family of clients as
-              well. To schedule call/text directly at{" "}
+              Botanical Skincare, Rose Quartz Facials, Brazilians, &amp; teen
+              acne. She is also a Certified Aromatherapist &amp; Certified
+              Master Herbalist all of which is incorporated into her Holistic
+              Skincare Practice. Shannon opened Get Salty Skincare Studio to not
+              only create a relaxing one of a kind space for her clients, but to
+              be able to provide an affordable alternative &amp; complimentary
+              therapy within her studio for guests with a variety of breathing
+              &amp; skin conditions. The idea of the Salt Room stemmed from
+              wanting to help her Father who has COPD &amp; her son who has
+              terrible allergies. She wanted to have a place to share the
+              benefits that the salt room provides for them with her family of
+              clients as well. To schedule call/text directly at{" "}
               <a href="tel:8153072139">815-307-2139</a>
             </p>
           </div>
