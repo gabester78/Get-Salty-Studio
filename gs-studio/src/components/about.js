@@ -89,7 +89,7 @@ const About = () => {
             <p>
               Malorie Smale, licensed massage therapist, graduated from Cortiva
               Institute in 2006 and is certified in myofascial release and
-              prenatal massage. Malorie uses a carbonation of therapeutic and
+              prenatal massage. Malorie uses a combination of therapeutic and
               relaxation techniques acquired over her 16 years of experience and
               training to provide soothing customized massage treatments for
               every client. To schedule call/text directly at{" "}
