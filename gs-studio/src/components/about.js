@@ -34,7 +34,8 @@ const About = () => {
               help her Father who has COPD &amp; her son who has terrible
               allergies. She wanted to have a place to share the benefits that
               the salt room provides for them with her family of clients as
-              well.
+              well. To schedule call/text directly at{" "}
+              <a href="tel:8153072139">815-307-2139</a>
             </p>
           </div>
         </section>
@@ -51,7 +52,8 @@ const About = () => {
               McKayla Sellek, Licensed Esthetician, graduated from International
               Skin Beauty Academy in Schaumburg in Spring of 2022. The services
               she provides are facials, eyebrow waxing and tinting, lash lifts
-              and tinting, Cold Stone Therapy, and more to come.
+              and tinting, Cold Stone Therapy, and more to come. To schedule
+              call/ text directly at <a href="tel:8156797534">815-679-7534</a>
             </p>
           </div>
         </section>
@@ -91,7 +93,7 @@ const About = () => {
               relaxation techniques acquired over her 16 years of experience and
               training to provide soothing customized massage treatments for
               every client. To schedule call/text directly at{" "}
-              <a href="tel:8158615337">815-307-2139</a>
+              <a href="tel:8158615337">815-861-5337</a>
             </p>
           </div>
         </section>
