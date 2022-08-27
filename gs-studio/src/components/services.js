@@ -142,9 +142,9 @@ const Services = () => {
             <p>
               <span className="bold_text">1</span> Hour massage in salt room{" "}
               <span className="blue_text">$100</span>{" "}
-              <span className="bold_text">
+              {/* <span className="bold_text">
                 &#40;See Facebook page for dates&#41;
-              </span>
+              </span> */}
             </p>
           </article>
           <article className="cards">
@@ -158,7 +158,11 @@ const Services = () => {
             />
             <p>
               <span className="bold_text">1</span> Hour massage in salt room{" "}
-              <span className="blue_text">$200 pp</span>
+              <span className="blue_text">$200 per couple</span>
+              <br></br>
+              <span className="bold_text">
+                &#40;See Facebook page for dates&#41;
+              </span>
             </p>
           </article>
           <article className="cards">
