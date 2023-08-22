@@ -7,7 +7,7 @@ const Footer = () => {
   return (
         <footer>
           <div className="foot_container">
-            <p className="foot_text">©2021 Get Salty Studio</p>
+            <p className="foot_text">©2023 Get Salty Studio</p>
             <div>
               <a href="https://www.facebook.com/getsaltyskincarestudio/" target="_blank" rel="noreferrer"><img src={facebook} alt="Facebook Logo" /></a>
               <a href="https://www.instagram.com/getsaltyskincarestudio/" target="_blank" rel="noreferrer"><img src={instagram} alt="Instagram Logo" /></a>

@@ -1,11 +1,11 @@
 import React from "react";
-import Heather from "../images/Heather-HS.png";
+// import Heather from "../images/Heather-HS.png";
 import Shannon from "../images/Shannon-HS.png";
-import Roland from "../images/Roland-HS.png";
-import Malorie from "../images/Malorie-HS.png";
-import McKayla from "../images/McKayla-HS.png";
+// import Roland from "../images/Roland-HS.png";
+// import Malorie from "../images/Malorie-HS.png";
+// import McKayla from "../images/McKayla-HS.png";
 import teal_border from "../images/teal_border.svg";
-import blue_border from "../images/blue_border.svg";
+// import blue_border from "../images/blue_border.svg";
 
 const About = () => {
   return (
@@ -39,7 +39,7 @@ const About = () => {
             </p>
           </div>
         </section>
-        <section className="profile_container">
+        {/* <section className="profile_container">
           <img className="headshot2" src={McKayla} alt="headshot of McKayla" />
           <div className="profile">
             <h1 className="profile_h1">McKayla - Licensed Esthetician</h1>
@@ -115,7 +115,7 @@ const About = () => {
               <a href="tel:2248002267">224-800-2267</a>
             </p>
           </div>
-        </section>
+        </section> */}
       </div>
     </main>
   );

@@ -1,20 +1,19 @@
 import React, { useState } from "react";
 import Hero from "../images/hero1.jpg";
-import Chair from "../images/chair_massage.jpg";
 import Towels from "../images/towels.jpg";
-import Family from "../images/family.jpg";
+// import Family from "../images/family.jpg";
 import Cheers from "../images/cheers.jpg";
 import Heather from "../images/Heather-Massage.jpg";
 import Mal from "../images/Malorie-Massage.jpg";
-import McKay from "../images/McKayla-Facial.jpg";
-import Roland from "../images/Roland-Massage.jpg";
+// import McKay from "../images/McKayla-Facial.jpg";
+// import Roland from "../images/Roland-Massage.jpg";
 import Shan from "../images/Shannon-Facial.jpg";
 import ShanSign from "../images/Shannon-Sign.jpg";
 import ArrowLeft from "../images/arrow-circle-left-solid.svg";
 import ArrowRight from "../images/arrow-circle-right-solid.svg";
-import SaltRoomChairs from "../images/salt-room-chairs.jpg";
-import SaltRoomMassage2 from "../images/salt-room-massage-2.jpg";
-import SaltRoomMassage from "../images/salt-room-massage.jpg";
+// import SaltRoomChairs from "../images/salt-room-chairs.jpg";
+// import SaltRoomMassage2 from "../images/salt-room-massage-2.jpg";
+// import SaltRoomMassage from "../images/salt-room-massage.jpg";
 import SaunaPods from "../images/sauna-pod.jpg";
 
 const SliderData = [
@@ -24,42 +23,42 @@ const SliderData = [
   {
     image: ShanSign,
   },
-  {
-    image: SaltRoomMassage2,
-  },
-  {
-    image: Chair,
-  },
+  // {
+  //   image: SaltRoomMassage2,
+  // },
+  // {
+  //   image: Chair,
+  // },
   {
     image: Shan,
   },
   {
     image: SaunaPods,
   },
-  {
-    image: McKay,
-  },
-  {
-    image: Family,
-  },
+  // {
+  //   image: McKay,
+  // },
+  // {
+  //   image: Family,
+  // },
   {
     image: Mal,
   },
-  {
-    image: SaltRoomChairs,
-  },
-  {
-    image: Roland,
-  },
+  // {
+  //   image: SaltRoomChairs,
+  // },
+  // {
+  //   image: Roland,
+  // },
   {
     image: Towels,
   },
   {
     image: Heather,
   },
-  {
-    image: SaltRoomMassage,
-  },
+  // {
+  //   image: SaltRoomMassage,
+  // },
   {
     image: Cheers,
   },

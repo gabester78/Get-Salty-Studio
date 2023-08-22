@@ -62,20 +62,13 @@ const Services = () => {
           </p>
         </article>
 
-        <h4 className="card_heading">Packages</h4>
-        <img
-          className="borders"
-          src={teal_border}
-          alt="wavy teal line graphic"
-        />
-        <div className="card_container">
-          <article className="cards">
-            <h5>
+        <article>
+            <h4>
               Halotherapy <span className="blue_text">&#40;salt room&#41;</span>
-            </h5>
+            </h4>
             <img
-              className="blue_borders"
-              src={blue_border_short}
+              className="article_border_headings"
+              src={teal_border}
               alt="wavy teal line graphic"
             />
             <p>
@@ -86,17 +79,35 @@ const Services = () => {
               Children &#40;with adult in room&#41;
               <span className="blue_text">$5</span>
             </p>
-            {/* <div className="card_details">
-              <p>
-                <span className="bold_text">4</span> pack{" "}
-                <span className="blue_text">$85</span>
-              </p>
-              <p>
-                <span className="bold_text">6</span> pack{" "}
-                <span className="blue_text">$120</span>
-              </p>
-            </div> */}
-          </article>
+        </article>
+
+        <article>
+            <h4>
+              Oxygen Bar
+            </h4>
+            <img
+              className="article_border_headings"
+              src={teal_border}
+              alt="wavy teal line graphic"
+            />
+            <p>
+              <span className="bold_text">10</span> mins{" "}
+              <span className="blue_text">$15</span>
+            </p>
+            <p>
+              Recreational oxygen therapy. <span className="blue_text">Purified oxygen</span> boosts energy levels, 
+              relieves stress, cures hangovers, improves mood, improves concentration, provides relief for headaches + migraines, 
+              and also promotes better sleep.
+            </p>
+        </article>
+
+        <h4 className="card_heading">Packages</h4>
+        <img
+          className="borders"
+          src={teal_border}
+          alt="wavy teal line graphic"
+        />
+        <div className="card_container">
           <article className="cards">
             <h5>
               The Sweet + <span className="blue_text">Salty</span>
@@ -110,7 +121,7 @@ const Services = () => {
               <span className="bold_text">1</span> Hour{" "}
               <span className="blue_text">$65</span>
             </p>
-            <p>Halotherapy session, Hand paraffin + Chair Massage</p>
+            <p>Halotherapy session, 10 min Oxygen Bar + 20 min Hydrotherapy Massage</p>
           </article>
           <article className="cards">
             <h5>
@@ -127,43 +138,6 @@ const Services = () => {
               <span className="blue_text">$55</span>
             </p>
             <p>Halotherapy session + Sauna Pod</p>
-          </article>
-        </div>
-        <div className="card_container">
-          <article className="cards">
-            <h5>
-              <span className="blue_text">Salty</span> Massage
-            </h5>
-            <img
-              className="blue_borders"
-              src={blue_border_short}
-              alt="wavy teal line graphic"
-            />
-            <p>
-              <span className="bold_text">1</span> Hour massage in salt room{" "}
-              <span className="blue_text">$100</span>{" "}
-              {/* <span className="bold_text">
-                &#40;See Facebook page for dates&#41;
-              </span> */}
-            </p>
-          </article>
-          <article className="cards">
-            <h5>
-              <span className="blue_text">Salty</span> Couples Massage
-            </h5>
-            <img
-              className="blue_borders"
-              src={blue_border_short}
-              alt="wavy teal line graphic"
-            />
-            <p>
-              <span className="bold_text">1</span> Hour massage in salt room{" "}
-              <span className="blue_text">$200 per couple</span>
-              <br></br>
-              <span className="bold_text">
-                &#40;See Facebook page for dates&#41;
-              </span>
-            </p>
           </article>
           <article className="cards">
             <h5>The VIP Package</h5>
@@ -182,6 +156,7 @@ const Services = () => {
             </p>
           </article>
         </div>
+
         <article>
           <h5>Girls Night Out</h5>
           <img
@@ -207,21 +182,9 @@ const Services = () => {
               </p>
               <p>
                 Halotherapy session, Oxygen treatment, LED light therapy, Hand
-                paraffin + Chair Massage
+                paraffin + 20 min Hydrotherapy Massage
               </p>
             </article>
-            {/* <article className="GNO_cards">
-              <h5>Package 2</h5>
-              <img
-                className="blue_borders_GNO"
-                src={blue_border_short}
-                alt="wavy teal line graphic"
-              />
-              <p>
-                <span className="blue_text">$80 pp</span>, 4 services
-              </p>
-              <p>Halotherapy, Hand paraffin, Light treatment, + Sauna pod</p>
-            </article> */}
             <article className="GNO_cards">
               <h5>Package 2</h5>
               <img
@@ -233,7 +196,7 @@ const Services = () => {
                 <span className="blue_text">$115 pp</span>, 5 services
               </p>
               <p>
-                Halotherapy, Hand paraffin, Chair Massage, Light treatment, +
+                Halotherapy, Hand paraffin, 20 min Hydrotherapy Massage, Light treatment, +
                 Sauna pod
               </p>
             </article>
@@ -250,7 +213,7 @@ const Services = () => {
                 <span className="blue_text">$115 pp</span>, 4 services
               </p>
               <p>
-                Halotherapy, Sauna pod, Hand paraffin, + Collagen sheet mask
+                Halotherapy, Sauna pod, 10 min oxygen bar, + Collagen sheet mask
                 with Oxygen Treatment
               </p>
             </article>
@@ -283,7 +246,8 @@ const Services = () => {
           <p>
             <span className="bold_text">1</span> Hour to an hour +{" "}
             <span className="bold_text">15</span> mins{" "}
-            <span className="blue_text">$70</span>
+            <span className="blue_text">$75</span>{" "}<br></br>
+            <span className="tags bold_text">Recommended for 20 years of age + under.</span> 
           </p>
           <p>
             The Rose Quartz Facial is different than your standard facial. Rose
@@ -309,7 +273,7 @@ const Services = () => {
           <p>
             <span className="bold_text">1</span> Hour to an hour +{" "}
             <span className="bold_text">15</span> mins{" "}
-            <span className="blue_text">$75</span>
+            <span className="blue_text">$80</span>
           </p>
           <p>
             The Rose Quartz Facial but also includes extras with tons of
@@ -318,23 +282,41 @@ const Services = () => {
           </p>
           <p className="tags">
             Gua Sha • Facial Cupping • steam towel acupressure • oxygen mask •
-            Rose Quartz massage •hand paraffin • arm • hand massage • heated
+            Rose Quartz massage • arm • hand massage • heated
             energy mat{" "}
           </p>
         </article>
         <article>
-          <h5>Teen Clean 2.0</h5>
+          <h5>Hydroderabrasion Facial</h5>
           <img
             className="article_border"
             src={blue_border}
             alt="wavy teal line graphic"
           />
           <p>
-            <span className="bold_text">45</span> mins{" "}
-            <span className="blue_text">$45</span>
+            <span className="blue_text">$85</span>
           </p>
-          <p className="tags">
-            exfoliating hydrofacial machine • oxygen mask or LED
+          <p>
+            "Combines cleansing, exfoliation, extraction, hydration +
+            antioxidants protection simultaneously. This results in"{" "}
+            <span className="blue_text">clearer, more beautiful skin</span> with
+            no discomfort or downtime.
+          </p>
+        </article>
+        <article>
+          <h5>Triple Threat Anti-Aging Facial</h5>
+          <img
+            className="article_border"
+            src={blue_border}
+            alt="wavy teal line graphic"
+          />
+          <p>
+            <span className="blue_text">$90</span>
+          </p>
+          <p>
+            "O2 to derm" machine with Korean Skincare.{" "}
+            <span className="blue_text">Next level facial</span> with
+            oxygen, anions (negative ions + antioxidates) + LED light.
           </p>
         </article>
         <article>
@@ -350,7 +332,7 @@ const Services = () => {
           <p>
             <span className="bold_text">35</span> to{" "}
             <span className="bold_text">45</span> mins{" "}
-            <span className="blue_text">$35</span>
+            <span className="blue_text">$40</span>
           </p>
           <p>
             <span className="blue_text">Your lil’ Princess</span> will be
@@ -359,45 +341,8 @@ const Services = () => {
             initaita a good skin care routine.
           </p>
           <p className="tags">
-            cleanser • steam • mask • massage • hand paraffin • arm/hand massage
-            • moisturizer
-          </p>
-        </article>
-        <article>
-          <h5>Hydrofacial</h5>
-          <img
-            className="article_border"
-            src={blue_border}
-            alt="wavy teal line graphic"
-          />
-          <p>
-            <span className="blue_text">$85</span>
-          </p>
-          <p>
-            Combines cleansing, exfoliation, extraction, hydration +
-            antioxidants protection simultaneously. This results in{" "}
-            <span className="blue_text">clearer, more beautiful skin</span> with
-            no discomfort or downtime.
-          </p>
-        </article>
-        <article>
-          <h5>Nano Infusion Facial</h5>
-          <img
-            className="article_border"
-            src={blue_border}
-            alt="wavy teal line graphic"
-          />
-          <p>
-            <span className="blue_text">$90</span>
-          </p>
-          <p>
-            <span className="blue_text">
-              Non-invasive skin treatment for skin conditions
-            </span>{" "}
-            such as fine lines, scarring + pigmentation. Enhances product
-            absorbtion and drives ingredients deep into the skin. Offers
-            immediate and longterm results. Includes hot stone arm + hand
-            massage with LED light <span id="fitness_anchor">therapy.</span>
+            cleanser • steam • mask • massage • arm/hand massage
+            • <span id="fitness_anchor">moisturizer   </span>
           </p>
         </article>
         <article>
@@ -416,42 +361,6 @@ const Services = () => {
             alt="wavy teal line graphic"
           />
         </article>
-        {/* <article>
-          <h5>Facial Cupping</h5>
-          <img
-            className="article_border"
-            src={blue_border}
-            alt="wavy teal line graphic"
-          />
-          <p>
-            <span className="blue_text">$25</span>
-          </p>
-          <p>
-            This relaxing facial treatment increases circulation + nutrients to
-            the skin, increases lymphatic drainage, + reduces inflammation by
-            increasing blood flow. It will help your skin regain it’s{" "}
-            <span className="blue_text">youthful appearance.</span>
-          </p>
-          <p className="tags">
-            regulate oil production • strengthen skin + connective tissues •
-            brightens skin • decrease puffiness • tone chin, jawline, neck and
-            décolletage • minimize the appearance of scars, fine lines +
-            wrinkles • decrease TMJ pain and swelling • relax muscle tension
-          </p>
-        </article> */}
-        {/* <article>
-          <h5>Facial Sculpting</h5>
-          <img
-            className="article_border"
-            src={blue_border}
-            alt="wavy teal line graphic"
-          />
-          <p>
-            <span className="bold_text">30</span> mins{" "}
-            <span className="blue_text">$35</span>
-          </p>
-          <p>Facial cupping + Gua sha</p>
-        </article> */}
         <article>
           <h5>Lunch Time Lift</h5>
           <img
@@ -461,7 +370,7 @@ const Services = () => {
           />
           <p>
             <span className="bold_text">30</span> mins{" "}
-            <span className="blue_text">$45</span>
+            <span className="blue_text">$50</span>
           </p>
           <p>
             Microcurrent is a popular treatment for aging skin. It uses low
@@ -553,6 +462,57 @@ const Services = () => {
           />
         </article>
         <article>
+          <h5>Teen Clean 2.0</h5>
+          <img
+            className="article_border"
+            src={blue_border}
+            alt="wavy teal line graphic"
+          />
+          <p>
+            <span className="bold_text">45</span> mins{" "}
+            <span className="blue_text">$50</span>
+          </p>
+          <p className="tags">
+            exfoliating hydrofacial machine • oxygen mask or LED
+          </p>
+        </article>
+        <article>
+          <h5>Nano Infusion Facial</h5>
+          <img
+            className="article_border"
+            src={blue_border}
+            alt="wavy teal line graphic"
+          />
+          <p>
+            <span className="blue_text">$100</span>
+          </p>
+          <p>
+            <span className="blue_text">
+              Non-invasive skin treatment for skin conditions
+            </span>{" "}
+            such as fine lines, scarring + pigmentation. Enhances product
+            absorbtion and drives ingredients deep into the skin. Offers
+            immediate and longterm results. Includes hot stone arm + hand
+            massage with LED light therapy.
+          </p>
+        </article>
+        <article>
+          <h5>Mini Threat Anti-Aging Treatment</h5>
+          <img
+            className="article_border"
+            src={blue_border}
+            alt="wavy teal line graphic"
+          />
+          <p>
+            <span className="blue_text">$60</span>
+          </p>
+          <p>
+            <span className="blue_text">
+              Exfoliation
+            </span>{" "}, oxygen, anions, light therapy using Korean Skincare.
+          </p>
+        </article>
+        <article>
           <h5>LED Light Therapy</h5>
           <img
             className="article_border"
@@ -581,7 +541,7 @@ const Services = () => {
           />
           <p>
             <span className="bold_text">30</span> min session{" "}
-            <span className="blue_text">$40</span>
+            <span className="blue_text">$50</span>
             <br></br>
             Once a week for 6 weeks
           </p>
@@ -607,10 +567,7 @@ const Services = () => {
           />
           <p>
             <span className="bold_text">30</span> min session{" "}
-            <span className="blue_text">$30</span>
-            {/* <br></br>
-            Purchase <span className="bold_text">4</span> Cold Stone Packages
-            for <span className="blue_text">$20</span> each. */}
+            <span className="blue_text">$45</span>
           </p>
           <p>
             This technique is a relief for{" "}
@@ -639,7 +596,7 @@ const Services = () => {
           />
           <p>
             <span className="bold_text">1</span> session{" "}
-            <span className="blue_text">$65</span>
+            <span className="blue_text">$75</span>
           </p>
           <p>
             Back is cleaned, steamed + sugar scrubbed.{" "}
@@ -652,35 +609,6 @@ const Services = () => {
             applied to back.
           </p>
         </article>
-        {/* <article>
-          <h5>Reflexology</h5>
-          <img
-            className="article_border"
-            src={blue_border}
-            alt="wavy teal line graphic"
-          />
-          <p>
-            <span className="bold_text">1</span> hour session{" "}
-            <span className="blue_text">$45</span>
-          </p>
-          <p>
-            Reflexology is a{" "}
-            <span className="blue_text">
-              natural, drug free way to reduce stress,
-            </span>{" "}
-            increase circulation + assist the body to heal itself.
-          </p>
-          <p>
-            Reflexology can help reduce pain, encourage relaxation, improve
-            blood low, aid post-surgery recovery, reduce toxins in the body, +
-            help with the overall reduction of daily stress.
-          </p>
-          <p className="tags">
-            <span className="blue_text">Please note:</span> A reflexologist is
-            not a medical doctor. Reflexology is not a substitute for medical
-            treatment, but may server as a compliment to most kinds of therapy.
-          </p>
-        </article> */}
         <article>
           <h5>
             <span className="blue_text">Salty</span> Reflexology
@@ -718,6 +646,67 @@ const Services = () => {
           <img
             className="article_border_headings"
             src={teal_border}
+            alt="wavy teal line graphic"
+          />
+        </article>
+        
+        <div className="card_container">
+          <article className="cards">
+            <h5>
+              <span className="blue_text">Salty</span> Massage
+            </h5>
+            <img
+              className="blue_borders"
+              src={blue_border_short}
+              alt="wavy teal line graphic"
+            />
+            <p>
+              <span className="bold_text">1</span> Hour massage in salt room{" "}
+              <span className="blue_text">$100</span>{" "}
+
+            </p>
+          </article>
+          <article className="cards">
+            <h5>
+              <span className="blue_text">Infared</span> Massage
+            </h5>
+            <img
+              className="blue_borders"
+              src={blue_border_short}
+              alt="wavy teal line graphic"
+            />
+            <p>
+              <span className="bold_text">1</span> Hour infrared massage. For join pain, muscle pain + muscle recovery from a workout.{" "}
+              <span className="blue_text">$95</span>{" "}
+
+            </p>
+          </article>
+          <article className="cards">
+            <h5>
+              <span className="blue_text">Salty</span> Couples Massage
+            </h5>
+            <img
+              className="blue_borders"
+              src={blue_border_short}
+              alt="wavy teal line graphic"
+            />
+            <p>
+              <span className="bold_text">1</span> Hour massage in salt room{" "}
+              <span className="blue_text">$200 per couple</span>
+              <br></br>
+              <span className="bold_text">
+                &#40;See Facebook page for dates&#41;
+              </span>
+            </p>
+          </article>
+        </div>
+        <article className="wax_article">
+          <div className="nav_header">
+            <h4>Standard Massage Therapy Pricing</h4>
+          </div>
+          <img
+            className="article_border_headings"
+            src={blue_border}
             alt="wavy teal line graphic"
           />
         </article>
