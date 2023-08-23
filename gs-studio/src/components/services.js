@@ -47,22 +47,6 @@ const Services = () => {
         </article>
 
         <article>
-          <h4>Body Sculpting</h4>
-          <img
-            className="article_border_headings"
-            src={teal_border}
-            alt="wavy teal line graphic"
-          />
-          <p>
-            <span className="blue_text">$125</span>
-          </p>
-          <p>
-            Laser Lipo, <span className="blue_text">Laser Cavitation,</span> +
-            Skin Tightening
-          </p>
-        </article>
-
-        <article>
             <h4>
               Halotherapy <span className="blue_text">&#40;salt room&#41;</span>
             </h4>
@@ -99,6 +83,22 @@ const Services = () => {
               relieves stress, cures hangovers, improves mood, improves concentration, provides relief for headaches + migraines, 
               and also promotes better sleep.
             </p>
+        </article>
+
+        <article>
+          <h4>Body Sculpting</h4>
+          <img
+            className="article_border_headings"
+            src={teal_border}
+            alt="wavy teal line graphic"
+          />
+          <p>
+            <span className="blue_text">$125</span>
+          </p>
+          <p>
+            Laser Lipo, <span className="blue_text">Laser Cavitation,</span> +
+            Skin Tightening
+          </p>
         </article>
 
         <h4 className="card_heading">Packages</h4>
@@ -253,7 +253,7 @@ const Services = () => {
             The Rose Quartz Facial is different than your standard facial. Rose
             Quartz contains a number of minerals including iron, magnesium,
             sodium, silicium, and oxygen for a postive effect on the{" "}
-            <span className="blue_text">body, wind and soul.</span>
+            <span className="blue_text">body, mind and soul.</span>
             Rose Quartz crystals smooth and polish the skin, redefine the facial
             contours, + drain away toxins leaving your skin{" "}
             <span className="blue_text">fresh, healthy + glowing.</span>
@@ -287,7 +287,7 @@ const Services = () => {
           </p>
         </article>
         <article>
-          <h5>Hydroderabrasion Facial</h5>
+          <h5>Hydrodermabrasion Facial</h5>
           <img
             className="article_border"
             src={blue_border}
@@ -620,7 +620,7 @@ const Services = () => {
           />
           <p>
             <span className="bold_text">45</span> mins{" "}
-            <span className="blue_text">$55</span>
+            <span className="blue_text">$65</span>
           </p>
           <p>
             Reflexology in the <span className="blue_text">Halotherapy</span>{" "}
@@ -668,7 +668,7 @@ const Services = () => {
           </article>
           <article className="cards">
             <h5>
-              <span className="blue_text">Infared</span> Massage
+              <span className="blue_text">Infrared</span> Massage
             </h5>
             <img
               className="blue_borders"
