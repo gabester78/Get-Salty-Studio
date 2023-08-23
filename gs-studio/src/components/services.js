@@ -253,7 +253,7 @@ const Services = () => {
             The Rose Quartz Facial is different than your standard facial. Rose
             Quartz contains a number of minerals including iron, magnesium,
             sodium, silicium, and oxygen for a postive effect on the{" "}
-            <span className="blue_text">body, mind and soul.</span> 
+            <span className="blue_text">body, mind and soul.</span>{" "}
             Rose Quartz crystals smooth and polish the skin, redefine the facial
             contours, + drain away toxins leaving your skin{" "}
             <span className="blue_text">fresh, healthy + glowing.</span>
