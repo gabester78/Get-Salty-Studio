@@ -96,7 +96,7 @@ const Services = () => {
             <span className="blue_text">$125</span>
           </p>
           <p>
-            Laser Lipo, <span className="blue_text">Laser Cavitation,</span> +
+            Laser Lipo, <span className="blue_text">Laser Cavitation,</span> or
             Skin Tightening
           </p>
         </article>
@@ -314,9 +314,12 @@ const Services = () => {
             <span className="blue_text">$90</span>
           </p>
           <p>
-            "O2 to derm" machine with Korean Skincare.{" "}
-            <span className="blue_text">Next level facial</span> with
-            oxygen, anions (negative ions + antioxidates) + LED light.
+            Re-energize skin cells and <span className="blue_text">turn back the clock</span> with our O2toDerm facial. 
+            Using Korean skincare, LED, pure oxygen + anions: we can permeate needed purifed oxygen + vitamins into skin. 
+            This will leave you with improved tone, texture, and a healty glow.
+          </p>
+          <p className="tags">
+            regenerates new cells • rebalances PH • reduce bacteria • improves signs of aging • heals damaged cells • brighter skin • <span id="fitness_anchor">exfoliation</span>
           </p>
         </article>
         <article>
@@ -504,12 +507,12 @@ const Services = () => {
             alt="wavy teal line graphic"
           />
           <p>
-            <span className="blue_text">$60</span>
+          <span className="bold_text">45</span> mins{" "}<span className="blue_text">$60</span>
           </p>
           <p>
-            <span className="blue_text">
-              Exfoliation
-            </span>{" "}, oxygen, anions, light therapy using Korean Skincare.
+            Triple threat in a pinch! Using O2toDerm, Korean skincare, LED pure oxygen + anions: 
+            we can permeate needed purified oxygen + vitamins into your skin. This will leave you 
+            with improved tone, texture, and <span className="blue_text">a healthy glow</span> in a time crunch.
           </p>
         </article>
         <article>
@@ -648,7 +651,7 @@ const Services = () => {
             src={teal_border}
             alt="wavy teal line graphic"
           />
-        </article>infared
+        </article>
         
         <div className="card_container">
           <article className="cards">
