@@ -166,7 +166,7 @@ const Services = () => {
           />
           <p className="GNO_p">
             GNO parties are a private event for a minimum of 4 and a maximum 7
-            people. You may choose from any of the 3 packages below.
+            people. You may choose from any of the 3 packages below. 
           </p>
           <div className="GNO_card_container">
             <article className="GNO_cards">
@@ -181,8 +181,7 @@ const Services = () => {
                 <span className="blue_text">$115 pp</span>, 5 services
               </p>
               <p>
-                Halotherapy session, Oxygen treatment, LED light therapy, Hand
-                paraffin + 20 min Hydrotherapy Massage
+                Halotherapy session, Oxygen treatment, LED light therapy, 10 min oxygen bar + 20 min Hydrotherapy Massage
               </p>
             </article>
             <article className="GNO_cards">
@@ -681,7 +680,6 @@ const Services = () => {
             <p>
               <span className="bold_text">1</span> Hour infrared massage. For join pain, muscle pain + muscle recovery from a workout.{" "}
               <span className="blue_text">$95</span>{" "}
-
             </p>
           </article>
           <article className="cards">
@@ -703,6 +701,32 @@ const Services = () => {
             </p>
           </article>
         </div>
+
+        <article>
+          <h5>
+            <span className="blue_text">Hydro</span>Massage Table
+          </h5>
+          <img
+            className="article_border"
+            src={blue_border}
+            alt="wavy teal line graphic"
+          />
+          <p>
+            <span className="bold_text">25</span> mins{" "}
+            <span className="blue_text">$20</span>
+          </p>
+          <p>
+            A HydroMassage table differs from what you might think of as traditional massage therapy. Instead of a traditional 
+            massage performed by a therapist, the HydroMassage bed uses <span className="blue_text">jets of warm, pressurized water</span> to target particular areas 
+            of the body. That water pressure is the “hydro” part of HydroMassage. However, the water is contained inside the bed 
+            itself, so it’s still a dry massage!
+          </p>
+          <p>
+            You can use the HydroMassage bed fully clothed and control which areas of your body you’d like to target with a touch-screen 
+            interface. You can also use pre-programmed settings on the bed or adjust your settings as needed during your massage.
+          </p>
+        </article>
+
         <article className="wax_article">
           <div className="nav_header">
             <h4>Standard Massage Therapy Pricing</h4>

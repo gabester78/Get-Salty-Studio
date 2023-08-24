@@ -95,6 +95,7 @@ const Home = () => {
                 <li>• Back Treatments</li>
                 <li>• Reflexology</li>
                 <li>• Paraffin Treatment</li>
+                <li>• Oxygen Bar</li>
               </ul>
             </div>
             <div className="cards">
@@ -109,8 +110,8 @@ const Home = () => {
               <ul>
                 <li>• Massage Therapy</li>
                 <li>• LED Therapy</li>
-                <li>• Chair Massage</li>
-                <li>• Pedicure</li>
+                <li>• Hydrotherapy Table Massage</li>
+                <li>• Sauna Pods</li>
               </ul>
             </div>
           </section>
