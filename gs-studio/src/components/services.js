@@ -41,8 +41,8 @@ const Services = () => {
               detoxification, relaxation, a metabolism boost, immune system
               support, + decrease pain.
             </span>{" "}
-            The sauna pods use infrared light to help with pain, joints +
-            muscles, + muscle recovery for a work out.
+            The sauna pods use infrared light to help with joint +
+            muscle pain, + muscle recovery from a work out.
           </p>
         </article>
 
@@ -375,7 +375,7 @@ const Services = () => {
             <span className="blue_text">$50</span>
           </p>
           <p>
-            Microcurrent is a popular treatment for aging skin. It uses low
+            Microcurrent is an effective tool against aging skin. It uses low
             level electrical currents to trigger{" "}
             <span className="blue_text">
               the body’s natural skin enhancing chemicals
