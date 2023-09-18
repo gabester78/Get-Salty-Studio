@@ -44,11 +44,14 @@ import SRMassage from "../images/new-images/SR-Massage.jpg"
 import SRMassage2 from "../images/new-images/SR-Massage-2.jpg"
 import SRKids from "../images/new-images/SR-Kids.jpg"
 import SRPainting from "../images/new-images/SR-Painting.jpg"
-
+import Hydro from "../images/new-images/hydrotable.jpg"
 
 const SliderData = [
   {
     image: Hero,
+  },
+  {
+    image: Hydro,
   },
   {
     image: ShanSign,
