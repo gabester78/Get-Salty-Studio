@@ -722,8 +722,7 @@ const Services = () => {
             itself, so it’s still a dry massage!
           </p>
           <p>
-            You can use the HydroMassage bed fully clothed and control which areas of your body you’d like to target with a touch-screen 
-            interface. You can also use pre-programmed settings on the bed or adjust your settings as needed during your massage.
+            You can use the HydroMassage bed fully clothed.
           </p>
         </article>
 
