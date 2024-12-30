@@ -64,15 +64,6 @@ const Contact = () => {
             ></iframe>
           </div>
         </article>
-
-        <a
-          className="gabe"
-          href="http://gabrielromerodesign.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Design and web development by GabrielRomeroDesign.com
-        </a>
       </section>
     </main>
   );

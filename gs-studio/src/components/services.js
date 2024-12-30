@@ -728,7 +728,7 @@ const Services = () => {
 
         <article className="wax_article">
           <div className="nav_header">
-            <h4>Standard Massage Therapy Pricing</h4>
+            <h4>Standard Massage Therapy</h4>
           </div>
           <img
             className="article_border_headings"
@@ -736,31 +736,32 @@ const Services = () => {
             alt="wavy teal line graphic"
           />
         </article>
+        <p><span className="blue_text">Massage pricing based on therapist.</span> Please call call for pricing. Massage times available are listed below.</p>
         <article className="wax_list">
           <ul>
             <li>
               <span className="bold_text">15</span> mins{" "}
-              <span className="blue_text">$20</span>
+              {/* <span className="blue_text">$20</span> */}
             </li>
             <li>
               <span className="bold_text">30</span> mins{" "}
-              <span className="blue_text">$40</span>
+              {/* <span className="blue_text">$40</span> */}
             </li>
             <li>
               <span className="bold_text">45</span> mins{" "}
-              <span className="blue_text">$60</span>
+              {/* <span className="blue_text">$60</span> */}
             </li>
             <li>
               <span className="bold_text">60</span> mins{" "}
-              <span className="blue_text">$75</span>
+              {/* <span className="blue_text">$75</span> */}
             </li>
             <li>
               <span className="bold_text">75</span> mins{" "}
-              <span className="blue_text">$90</span>
+              {/* <span className="blue_text">$90</span> */}
             </li>
             <li>
               <span className="bold_text">90</span> mins{" "}
-              <span className="blue_text">$110</span>
+              {/* <span className="blue_text">$110</span> */}
             </li>
           </ul>
         </article>
@@ -828,25 +829,18 @@ const Services = () => {
           </p>
         </article>
         <article>
-          <h5>Hot Stone Massage</h5>
+          <h5>Lymphatic Drainage Massage</h5>
           <img
             className="article_border"
             src={blue_border}
             alt="wavy teal line graphic"
           />
           <p>
-            Smooth, flat, heated basalt stones are held + used while massage
-            techniques are applied. Giving the
-            <span className="blue_text">
-              {" "}
-              feeling of melting muscle tension + reducing tightness.
-            </span>{" "}
-            Depending on your preference, the pressure can be lighter overall or
-            more direct using the stone as a tool to break up a stubborn area.
-            There are some contraindications with hot stone therapy + physician
-            clearance will be needed if you are on blood thinners, a history of
-            blood clots, severe osteoporosis, heart condistions, uncontrolled
-            diabetes, open wounds or hand any surgeries in the last 6 weeks.
+            Lymphatic drainage massage<span className="blue_text">{" "} relieves swelling that occurs when illness 
+            or medical treatmentmedical treatment clogs your lumphatic system.</span>{" "}
+            Lymphatic massage involves gently maipulating specfic areas of your body to move excess fluid 
+            buildup away from your tissues and toward working lymph
+            vessels and lymph nodes so they can get rid of toxins in your body.
           </p>
         </article>
         <article className="bottom_arrow">

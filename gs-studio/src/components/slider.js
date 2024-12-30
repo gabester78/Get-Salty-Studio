@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import Hero from "../images/hero1.jpg";
 import Towels from "../images/towels.jpg";
 import Cheers from "../images/cheers.jpg";
-import Heather from "../images/Heather-Massage.jpg";
-import Mal from "../images/Malorie-Massage.jpg";
 import Shan from "../images/Shannon-Facial.jpg";
 import ShanSign from "../images/Shannon-Sign.jpg";
 import ArrowLeft from "../images/arrow-circle-left-solid.svg";
@@ -28,7 +26,6 @@ import FaceCrystal2 from "../images/new-images/Face-Crystal-2.jpg"
 import FaceMassage from "../images/new-images/Face-Massage.jpg"
 import FaceMassage2 from "../images/new-images/Face-Massage-2.jpg"
 import FamilyOB from "../images/new-images/Family-OB.jpg"
-import Ifrared from "../images/new-images/Ifrared.jpg"
 import KidsSR from "../images/new-images/Kids-SR.jpg"
 import Location from "../images/new-images/Location.jpg"
 import MassageRoom from "../images/new-images/Massage-Room.jpg"
@@ -40,11 +37,13 @@ import Odrem from "../images/new-images/Oderm-O-Mockup.jpg"
 import OdremRG from "../images/new-images/Oderm-RG.jpg"
 import Pod from "../images/new-images/Pod.jpg"
 import SRChairsKid from "../images/new-images/SR-Chairs-Kid.jpg"
-import SRMassage from "../images/new-images/SR-Massage.jpg"
 import SRMassage2 from "../images/new-images/SR-Massage-2.jpg"
 import SRKids from "../images/new-images/SR-Kids.jpg"
 import SRPainting from "../images/new-images/SR-Painting.jpg"
 import Hydro from "../images/new-images/hydrotable.jpg"
+import Halopros from "../images/new-images/halopros.jpg"
+import NewInfrared from "../images/new-images/New-Infrared.jpg"
+
 
 const SliderData = [
   {
@@ -58,6 +57,9 @@ const SliderData = [
   },
   {
     image: BlueSign,
+  },
+  {
+    image: NewInfrared,
   },
   {
     image: Promo,
@@ -75,13 +77,13 @@ const SliderData = [
     image: Promo2,
   },
   {
-    image: Mal,
-  },
-  {
     image: FaceCrystal,
-  },
+  }, 
   {
     image: Promo3,
+  },
+  {
+    image: Halopros,
   },
   {
     image: Towels,
@@ -91,9 +93,6 @@ const SliderData = [
   },
   {
     image: Promo4,
-  },
-  {
-    image: Heather,
   },
   {
     image: MassageRoom,
@@ -121,12 +120,6 @@ const SliderData = [
   },
   {
     image: Promo7,
-  },
-  {
-    image: Ifrared,
-  },
-  {
-    image: SRMassage,
   },
   {
     image: KidsSR,
