@@ -836,9 +836,9 @@ const Services = () => {
             alt="wavy teal line graphic"
           />
           <p>
-            Lymphatic drainage massage<span className="blue_text">{" "} relieves swelling that occurs when illness 
-            or medical treatmentmedical treatment clogs your lumphatic system.</span>{" "}
-            Lymphatic massage involves gently maipulating specfic areas of your body to move excess fluid 
+            Lymphatic drainage massage<span className="blue_text">{" "}relieves swelling that occurs when illness 
+            or medical treatment clogs your lymphatic system.</span>{" "}
+            Lymphatic massage involves gently manipulating specfic areas of your body to move excess fluid 
             buildup away from your tissues and toward working lymph
             vessels and lymph nodes so they can get rid of toxins in your body.
           </p>
