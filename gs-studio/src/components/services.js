@@ -678,7 +678,7 @@ const Services = () => {
               alt="wavy teal line graphic"
             />
             <p>
-              <span className="bold_text">1</span> Hour infrared massage. For join pain, muscle pain + muscle recovery from a workout.{" "}
+              <span className="bold_text">1</span> Hour infrared massage. For joint pain, muscle pain + muscle recovery from a workout.{" "}
               <span className="blue_text">$95</span>{" "}
             </p>
           </article>
