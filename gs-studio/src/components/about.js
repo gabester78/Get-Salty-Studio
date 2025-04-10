@@ -10,7 +10,7 @@ const About = () => {
         <section id="top" className="profile_container">
           <img className="headshot" src={Shannon} alt="headshot of Shannon" />
           <div className="profile">
-            <h1 className="profile_h1">Shannon - Owner &amp; Esthetician</h1>
+            <h1 className="profile_h1">Shannon - Owner, Cosmetologist, &amp; Esthetician</h1>
             <img
               className="border"
               src={teal_border}
@@ -30,7 +30,7 @@ const About = () => {
               terrible allergies. She wanted to have a place to share the
               benefits that the salt room provides for them with her family of
               clients as well. To schedule call/text directly at{" "}
-              <a href="tel:8153072139">815-307-2139</a>
+              <a href="tel:8153072139">815-307-2139</a>.
             </p>
           </div>
         </section>

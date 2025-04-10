@@ -33,8 +33,8 @@ import Nano2 from "../images/new-images/Nano-2.jpg"
 import Nano from "../images/new-images/Nano.jpg"
 import OBPromo from "../images/new-images/OB-Promo.jpg"
 import Obar from "../images/new-images/OB.jpg"
-import Odrem from "../images/new-images/Oderm-O-Mockup.jpg"
-import OdremRG from "../images/new-images/Oderm-RG.jpg"
+import Oderm from "../images/new-images/Oderm-O-Mockup.jpg"
+import OdermRG from "../images/new-images/Oderm-RG.jpg"
 import Pod from "../images/new-images/Pod.jpg"
 import SRChairsKid from "../images/new-images/SR-Chairs-Kid.jpg"
 import SRMassage2 from "../images/new-images/SR-Massage-2.jpg"
@@ -43,141 +43,144 @@ import SRPainting from "../images/new-images/SR-Painting.jpg"
 import Hydro from "../images/new-images/hydrotable.jpg"
 import Halopros from "../images/new-images/halopros.jpg"
 import NewInfrared from "../images/new-images/New-Infrared.jpg"
+import HeadSpa from "../images/new-images/head-massage.jpg"
+import HeadSpaIntro from "../images/new-images/HeadspaIntro.mp4"
 
 
 const SliderData = [
   {
-    image: Hero,
+    item:<img src={Hero} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Hydro,
+    item:<img src={HeadSpa} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: ShanSign,
+    item:<video src={HeadSpaIntro} className="slider_video"height="425px" autoPlay="true" controls="true"/>
   },
   {
-    image: BlueSign,
+    item:<img src={Hydro} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: NewInfrared,
+    item:<img src={ShanSign} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Promo,
+    item:<img src={BlueSign} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Shan,
+    item:<img src={NewInfrared} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Brazilian,
+    item:<img src={Promo} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: SaunaPods,
+    item:<img src={Shan} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Promo2,
+    item:<img src={Brazilian} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: FaceCrystal,
-  }, 
-  {
-    image: Promo3,
+    item:<img src={SaunaPods} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Halopros,
+    item:<img src={Promo2} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Towels,
+    item:<img src={FaceCrystal} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: FamilyOB,
+    item:<img src={Promo3} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Promo4,
+    item:<img src={Halopros} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: MassageRoom,
+    item:<img src={Towels} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Promo5,
+    item:<img src={FamilyOB} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: FaceMassage2,
+    item:<img src={Promo4} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Pod,
+    item:<img src={MassageRoom} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: SRKids,
+    item:<img src={Promo5} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Promo6,
+    item:<img src={FaceMassage2} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Nano,
+    item:<img src={Pod} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Odrem,
+    item:<img src={SRKids} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Promo7,
+    item:<img src={Promo6} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: KidsSR,
+    item:<img src={Nano} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Promo8,
+    item:<img src={Oderm} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Location,
+    item:<img src={Promo7} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Obar,
+    item:<img src={KidsSR} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: SRChairsKid,
+    item:<img src={Promo8} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Promo9,
+    item:<img src={Location} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: FaceCrystal2,
+    item:<img src={Obar} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Nano2,
+    item:<img src={SRChairsKid} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: SRPainting,
+    item:<img src={Promo9} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Promo10,
+    item:<img src={FaceCrystal2} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: FaceMassage,
+    item:<img src={Nano2} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: OBPromo,
+    item:<img src={SRPainting} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: FaceCrystal2,
+    item:<img src={Promo10} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Promo11,
+    item:<img src={FaceMassage} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Obar,
+    item:<img src={OBPromo} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Cheers,
+    item:<img src={Promo11} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: OdremRG,
+    item:<img src={Cheers} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: Promo12,
+    item:<img src={OdermRG} className="slider_images" alt="Various spa images"/>
   },
   {
-    image: SRMassage2,
+    item:<img src={Promo12} className="slider_images" alt="Various spa images"/>
   },
+  {
+    item:<img src={SRMassage2} className="slider_images" alt="Various spa images"/>
+  },
+  
 ];
 
 const Slider = () => {
@@ -192,7 +195,7 @@ const Slider = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
-  return (
+  return ( 
     <article className="slider_container">
       <img
         src={ArrowLeft}
@@ -207,11 +210,7 @@ const Slider = () => {
             key={index}
           >
             {index === current && (
-              <img
-                src={slide.image}
-                className="slider_images"
-                alt="Various spa images"
-              />
+              slide.item
             )}
           </div>
         );

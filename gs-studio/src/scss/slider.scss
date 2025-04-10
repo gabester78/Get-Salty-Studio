@@ -25,6 +25,15 @@
       width: 100%;
     }
   }
+  .slider_video {
+    background-color: $blue;
+    width: 700px;
+    height: 425px;
+    overflow: hidden;
+    @media (max-width: $tablet) {
+      width: 100%;
+    }
+  }
 
   .slide {
     opacity: 1;

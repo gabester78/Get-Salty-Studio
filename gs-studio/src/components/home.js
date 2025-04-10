@@ -122,7 +122,7 @@ const Home = () => {
             <span className="blue_text"> relax, unwind, + revitalize </span>{" "}
             your skin allowing you to look as young as you feel!
           </p>
-          <h4 id="signature">Shannon - Owner &amp; Esthetician</h4>
+          <h4 id="signature">Shannon - Owner, Cosmetologist, &amp; Esthetician</h4>
         </div>
       </div>
     </main>

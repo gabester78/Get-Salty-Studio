@@ -181,7 +181,7 @@ const Services = () => {
                 <span className="blue_text">$115 pp</span>, 5 services
               </p>
               <p>
-                Halotherapy session, Oxygen treatment, LED light therapy, 10 min oxygen bar + 20 min Hydrotherapy Massage
+                Halotherapy session, hand paraffin, LED light therapy, 10 min oxygen bar + 20 min Hydrotherapy Massage
               </p>
             </article>
             <article className="GNO_cards">
@@ -195,25 +195,8 @@ const Services = () => {
                 <span className="blue_text">$115 pp</span>, 5 services
               </p>
               <p>
-                Halotherapy, Hand paraffin, 20 min Hydrotherapy Massage, Light treatment, +
+                Halotherapy, 10 min O2 bar, 20 min Hydrotherapy Massage, Light treatment, +
                 Sauna pod
-              </p>
-            </article>
-          </div>
-          <div className="GNO_card_container">
-            <article className="GNO_cards">
-              <h5>Package 3</h5>
-              <img
-                className="blue_borders_GNO"
-                src={blue_border_short}
-                alt="wavy teal line graphic"
-              />
-              <p>
-                <span className="blue_text">$115 pp</span>, 4 services
-              </p>
-              <p>
-                Halotherapy, Sauna pod, 10 min oxygen bar, + Collagen sheet mask
-                with Oxygen Treatment
               </p>
             </article>
           </div>
@@ -272,7 +255,7 @@ const Services = () => {
           <p>
             <span className="bold_text">1</span> Hour to an hour +{" "}
             <span className="bold_text">15</span> mins{" "}
-            <span className="blue_text">$80</span>
+            <span className="blue_text">$90</span>
           </p>
           <p>
             The Rose Quartz Facial but also includes extras with tons of
