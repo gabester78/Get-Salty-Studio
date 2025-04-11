@@ -55,7 +55,7 @@ const SliderData = [
     item:<img src={HeadSpa} className="slider_images" alt="Various spa images"/>
   },
   {
-    item:<video src={HeadSpaIntro} className="slider_video"height="425px" autoPlay="true" controls="true"/>
+    item:<video src={HeadSpaIntro} className="slider_video" height="425px" autoPlay="true" controls="true"/>
   },
   {
     item:<img src={Hydro} className="slider_images" alt="Various spa images"/>

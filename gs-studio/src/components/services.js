@@ -618,6 +618,30 @@ const Services = () => {
             compliment to most kinds of therapy.
           </p>
         </article>
+
+        <article>
+          <h5>Head Spa</h5>
+          <img
+            className="article_border"
+            src={blue_border}
+            alt="wavy teal line graphic"
+          />
+          <p>
+            <span className="bold_text">75</span> mins{" "}
+            <span className="blue_text">$125</span>
+          </p>
+          <p>
+            <span className="bold_text">90</span> mins{" "}
+            <span className="blue_text">$150</span>
+          </p>
+          <p>
+            Your journey begins with a scalp analysis. Aromatherapy to <span className="blue_text">alleviate stress, relax, + unwind.</span>{" "} 
+            Scalp massage to improve blood circulation + promote scalp health. <span className="blue_text">Scalp scrub to detoxify + calm mind.</span>{" "}  
+            Hair mask to nourish. Head steam to enhance the absorption of nourishing ingredients. Arm & hand massage for
+            deep relaxation. Face massage to release tension.
+          </p>
+        </article>
+
         <article className="wax_article">
           <div className="nav_header">
             <h4>Massage Therapy</h4>
