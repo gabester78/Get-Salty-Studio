@@ -620,7 +620,7 @@ const Services = () => {
         </article>
 
         <article>
-          <h5>Head Spa</h5>
+          <h5>Head Spa Wellness Experience</h5>
           <img
             className="article_border"
             src={blue_border}
@@ -634,6 +634,8 @@ const Services = () => {
             <span className="bold_text">90</span> mins{" "}
             <span className="blue_text">$150</span>
           </p>
+          <p className="tags">Add ons include high frequency comb, hair tea rinse, oil pulling, face mask, + facial cupping. <span className="blue_text">
+            *Blow dry bar available for self use.</span></p>
           <p>
             Your journey begins with a scalp analysis. Aromatherapy to <span className="blue_text">alleviate stress, relax, + unwind.</span>{" "} 
             Scalp massage to improve blood circulation + promote scalp health. <span className="blue_text">Scalp scrub to detoxify + calm mind.</span>{" "}  
