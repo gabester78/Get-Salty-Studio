@@ -166,7 +166,7 @@ const Services = () => {
           />
           <p className="GNO_p">
             GNO parties are a private event for a minimum of 4 and a maximum 7
-            people. You may choose from any of the 3 packages below. 
+            people. You may choose from any of the 2 packages below. 
           </p>
           <div className="GNO_card_container">
             <article className="GNO_cards">
